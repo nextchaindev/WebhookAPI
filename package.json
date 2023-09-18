@@ -9,6 +9,9 @@
     "email": "me@snazzah.com",
     "url": "https://snazzah.com/"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "private": true,
   "license": "MIT",
   "scripts": {
