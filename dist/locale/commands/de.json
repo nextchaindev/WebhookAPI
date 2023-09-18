@@ -1,0 +1,146 @@
+{
+    "_": {
+        "name": "Deutsch",
+        "emoji": "de"
+    },
+    "common": {
+        "label_color": {
+            "purple": "Lila",
+            "blue": "Blau",
+            "sky": "Hellblau",
+            "pink": "Pink",
+            "black": "Schwarz",
+            "none": "Keine Farbe",
+            "yellow": "Gelb",
+            "red": "Rot",
+            "green": "Grün",
+            "orange": "Orange",
+            "lime": "Hellgrün"
+        },
+        "perm_levels": {
+            "public": "Öffentlich",
+            "org": "Für das Team sichtbar",
+            "private": "Privat"
+        },
+        "custom_field": "Persönliches Feld",
+        "link": "Link",
+        "due": "Fälligkeitsdatum",
+        "page": "Seite",
+        "list": "Liste",
+        "lists": "Listen",
+        "labels": "Labels",
+        "attachment": "Anhang",
+        "attachments": "Anhänge",
+        "checklists": "Checklisten",
+        "stickers": "Sticker",
+        "members": "Mitglieder",
+        "org": "Team",
+        "visibility": "Sichtbarkeit",
+        "info": "Information",
+        "last_activity": "Letzte Aktivität",
+        "cover_source": "Quelle des Titelbilds",
+        "yes": "Ja",
+        "no": "Nein",
+        "url": "URL",
+        "cancel": "Abbrechen",
+        "done": "Fertig",
+        "none": "Nichts",
+        "more": "+ {{count, number}} weitere…",
+        "votes": "Stimmen",
+        "bg_img": "Hintergrundbild",
+        "name": "Name",
+        "description": "Beschreibung",
+        "empty_input": "Schreibe etwas…",
+        "board_count_one": "{{count, number}} Board",
+        "board_count_other": "{{count, number}} Boards",
+        "org_count_one": "{{count, number}} Organisation",
+        "org_count_other": "{{count, number}} Organisationen",
+        "list_count_one": "{{count, number}} Liste",
+        "list_count_other": "{{count, number}} Liste",
+        "card_count_one": "{{count, number}} Karte",
+        "card_count_other": "{{count, number}} Karten"
+    },
+    "cleardata": {
+        "done": "Deine Benutzerdaten wurde vollständig gelöscht."
+    },
+    "clearauth": {
+        "done": "Deine Authorization wurde entfernt."
+    },
+    "cards": {
+        "list_archived": "Archivierte Karten"
+    },
+    "lists": {
+        "list_archived": "Archivierte Listen"
+    },
+    "boards": {
+        "list_archived": "Archivierte Boards"
+    },
+    "webhook": {
+        "style": "Stil",
+        "id": "ID",
+        "active": "Aktiv",
+        "locale": "Sprache",
+        "whitelist": "Whitelist",
+        "blacklist": "Blacklist",
+        "dwh": "Discord Webhook",
+        "filters_updated": "Die Filtereinstellungen des Webhooks wurden aktualisiert.",
+        "repair_done": "Fehler, die bei der Benutzung des Webhooks aufgetreten sind, wurden behoben.",
+        "choose_cards": "Wähle die zu filternde Karten aus. Kein Auswahl wird den Filter deaktiviern.",
+        "choose_lists": "Wähle die zu filternde Listen aus. Kein Auswahl wird den Filter deaktiviern.",
+        "max_wh": "Du hast dein Maximum an webhooks erreicht! Du kannst dieses Limit erhöhen, indem du auf Patron spendest!",
+        "styles": {
+            "compact": {
+                "description": "Kombiniert mehrere Events in ein einziges Embed, ähnlich zu Github Webhook commits",
+                "name": "Komprimiert"
+            },
+            "small": {
+                "description": "Eine verkleinerte Version, die nur einen Beschreibenden Titel beinaltet",
+                "name": "Klein"
+            },
+            "default": {
+                "description": "Normale Nachrichten, die so viel Informationen zeigen, wie möglich",
+                "name": "Standard"
+            }
+        }
+    },
+    "query": {
+        "not_found_card": "Diese Karte konnte nicht gefunden werden.",
+        "not_found_list": "Diese Liste konnte nicht gefunden werden.",
+        "not_found_label": "Dieses Label konnte nicht gefunden werden.",
+        "not_found_webhook": "Dieser Webhook konnte nicht gefunden werden.",
+        "no_list_board": "Es gibt keine Boards zum Anzeigen.",
+        "no_list_list": "Es gibt keine Listen zum Anzeigen.",
+        "no_list_card": "Es gibt keine Kartem zum Anzeigen.",
+        "no_list_webhook": "Es gibt keine Webhooks zum Anzeigen.",
+        "no_list_label": "Es gibt keine Labels zum Anzeigen.",
+        "not_found_board": "Das Board konnte nicht gefunden werden. Versuche erstmal ein Board auszuwählen."
+    },
+    "interactions": {
+        "no_admin_perms": "Dieser Befehl erfordert das Recht \"Server verwalten\".",
+        "no_trello_perms": "Dieser Befehl erfordert die Trello Verwaltungsrolle oder die Berechtigung \"Server verwalten\".",
+        "wrong_user": "❌ Nur die Person, die den Befehl ausgeführt hat, kann das tun.",
+        "prompt_wrong_user": "❌ Nur die Person, die den Befehl ausgeführt hat, kann mit dieser Aufforderung interagieren.",
+        "prompt_expired": "Diese Aufforderung ist abgelaufen.",
+        "prompt_no_function": "🔥 Diese Art von Aufforderung erfüllt keine Funktion. Bitte kontaktiere den Support, wenn du das hier siehst.",
+        "prompt_no_action_id_or_type": "🔥 Keine Aktions ID wurde übermittelt. Bitte kontaktiere den Support, wenn du das hier siehst.",
+        "prompt_action_expired": "❌ Die Aktion von dieser Aufforderung ist abgelaufen, bitte versuche es später erneut.",
+        "prompt_action_requires_data": "🔥 Die ausgeführte Aktion benötigt Übergabedaten. Bitte kontaktiere den Support, wenn du das hier siehst.",
+        "prompt_select_item": "Wähle eine der untenstehenden Optionen aus…",
+        "items_selected_one": "{{count, number}} Gegenstand ausgewählt",
+        "items_selected_other": "{{count, number}} Gegenstände ausgewählt",
+        "visit_card": "Karte auf Trello anschauen",
+        "visit_board": "Board auf Trello anschauen",
+        "dismiss": "Du kannst diese Nachricht verwerfen.",
+        "no_server": "Dieser Befehl kann nur in einem Server ausgeführt werden.",
+        "delete_wrong_user": "❌ Nur die Person, die den Befehl ausgeführt hat, kann die Antwort löschen.",
+        "prompt_no_action_id": "🔥 Keine Aktions ID wurde übermittelt. Bitte kontaktiere den Support, wenn du das hier siehst.",
+        "prompt_action_invalid_type": "🔥 Die Aktion dieser Aufforderung hat einen ungültigen Typ. Bitte kontaktiere den Support, wenn du das hier siehst.",
+        "error": "Beim Versuch diese Interaktion zu bearbeiten, ist ein Fehler aufgetreten."
+    },
+    "auth": {
+        "no_auth": "Du musst deinen Trello Account verknüpfen, um diesen Befehl zu benutzen.",
+        "expired": "Dein Authentifizierungstoken ist abgelaufen! Bitte starte die Authentifizierung neu, um weiter zu machen.",
+        "button": "Mit Trello verknüpfen",
+        "content": "Du kannst deinen Trello Account verknüpfen, indem du untenstehenden Knopf benutzt:"
+    }
+}

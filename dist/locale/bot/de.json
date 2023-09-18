@@ -1,0 +1,1020 @@
+{
+    "reload": {
+        "reloading": "Reloade Befehle…",
+        "done": "Befehle reloaded."
+    },
+    "reloadlocale": {
+        "reloading": "Reloade Sprachen…",
+        "done": "Sprachen reloaded."
+    },
+    "reloadone": {
+        "invalid": "Ungültiger Befehl!",
+        "file": "Eine Datei, die einen bestimmten Befehl hatte, existiert nicht mehr!",
+        "done": "{{&commands}} reloaded."
+    },
+    "responses": {
+        "hangman": "Ich bin kein Minigame-Bot.",
+        "eval": "Ausgeführt in {{ms}} ms.",
+        "restart": "Restarte Shard…"
+    },
+    "links": {
+        "auth": {
+            "start": "Autorisiere deinen Trello-Account mit Discord:",
+            "fail": "Der Bot-Besitzer hat keinen Autorisierungs-Link angegeben!"
+        },
+        "donate": {
+            "start": "Unterstütze die Entwicklung durch eine Spende!",
+            "fail": "Der Bot-Besitzer hat keine Spenden-Links angegeben!"
+        },
+        "github": "Hier ist der Link zu meinem Source Code:",
+        "serverinvite": {
+            "start": "Betritt den Support-Server mit einem dieser Links!",
+            "fail": "Der Bot-Besitzer hat keine Support-Server-Links angegeben!"
+        },
+        "invite": {
+            "start": "Hier sind die Links, um mich auf andere Server einzuladen!",
+            "fail": "Der Bot-Besitzer hat keine Einladungs-Links angegeben!"
+        }
+    },
+    "help": {
+        "not_found": "Der Befehl `{{&command}}` wurde nicht gefunden.",
+        "footer": "`{{&cleanPrefix}}help [Befehl]` für weitere Informationen.",
+        "header": "{{&username}} (Läuft einen modifizierten [Faux](https://github.com/Snazzah/Faux?ref=tacobot) von Snazzah)\nSupport-Server: {{&link}}\n\nDu weißt nicht, wie du anfangen sollst? [Hier klicken!](https://tacobot.app/guide?ref=bot)\nDir gefällt Taco? Dann unterstütz uns doch auf [Patreon](https://patreon.com/trello_talk) oder indem du für uns abstimmst (`T!vote`)"
+    },
+    "info": {
+        "title": "Informationen über {{&username}}",
+        "faux": "Dieser Bot verwendet eine modifizierte Version von [Faux](https://github.com/Snazzah/Faux?ref=tacobot)."
+    },
+    "ping": {
+        "message": "Pong!",
+        "ws": "WS: {{ms}} ms",
+        "rest": "REST: {{ms}} ms"
+    },
+    "_": {
+        "name": "Deutsch",
+        "emoji": "de"
+    },
+    "reloadwebserver": {
+        "no": "Diese Instanz hat keinen Webserver zu Verdügung!",
+        "reloading": "Der Webserver wird neu gestartet…",
+        "done": "Der Webserver wurde erfolgreich neu gestartet."
+    },
+    "shardinfo": {
+        "line": "**`{{id}}:`** {{status}}, {{ms}} ms, {{guilds}} Server",
+        "title": "Informationen über die Shards von {{&username}}"
+    },
+    "locale": {
+        "start": "Verfügbare Sprachen",
+        "unset": "Nicht gesetzt",
+        "user_locale": "Sprache des Benutzers: {{&locale}}",
+        "server_locale": "Sprache des Servers: {{&locale}}",
+        "server_set": "Serversprache auf **{{&name}}** gesetzt.",
+        "server_unset": "Serversprache zurücksetzten.",
+        "no_guild": "Du musst diesen Befehl in einem Server ausführen!",
+        "choose": "Schreibe die Nummer der Sprache auf die du ändern willst.",
+        "header": "`{{&prefix}}locale setuser [Sprache]` odee `{{&prefix}}locale setserver [Sprache]` um die Sprache zu ändern.",
+        "user_set": "Die Sprache des Benutzers auf **{{&name}}** gesetzt.",
+        "user_unset": "Benutzersprache zurücksetzten.",
+        "unset_l": "Sprache entfernen"
+    },
+    "words": {
+        "alias": {
+            "one": "Alias",
+            "many": "Aliase"
+        },
+        "cooldown": "Abklingzeit",
+        "usage": "Benutzung",
+        "initials": "Initialien",
+        "info": "Information",
+        "board": {
+            "many": "Boards",
+            "one": "Board"
+        },
+        "count": {
+            "many": "Daten",
+            "one": "Daten"
+        },
+        "list": {
+            "one": "Liste",
+            "many": "Listen"
+        },
+        "link": {
+            "one": "Link",
+            "many": "Links"
+        },
+        "cmd": {
+            "many": "Befehle",
+            "one": "Befehl"
+        },
+        "subcmd": {
+            "many": "Unterbefehle",
+            "one": "Unterbefehl"
+        },
+        "sticker": {
+            "many": "Sticker",
+            "one": "Sticker"
+        },
+        "user_pref": {
+            "many": "Nutzereinstellungen",
+            "one": "Nutzereinstellung"
+        },
+        "opt": {
+            "one": "Option",
+            "many": "Optionen"
+        },
+        "orgs": {
+            "many": "Teams",
+            "one": "Team"
+        },
+        "mem_usage": "Arbeitsspeichernutzung",
+        "server": {
+            "many": "Server",
+            "one": "Server"
+        },
+        "website": {
+            "one": "Website",
+            "many": "Internetseiten"
+        },
+        "donate": "Spenden",
+        "id": "ID",
+        "version": "Version",
+        "active": "Aktiv",
+        "uptime": "Online seit",
+        "note": "Notiz",
+        "trello_board": {
+            "one": "Trello Board",
+            "many": "Trello Boards"
+        },
+        "card": {
+            "one": "Karte",
+            "many": "Karten"
+        },
+        "checklist": {
+            "one": "Checkliste",
+            "many": "Checklisten"
+        },
+        "checklist_item": {
+            "one": "Gegenstand auf Checkliste",
+            "many": "Gegenstände auf Checkliste"
+        },
+        "attachment": {
+            "one": "Anhang",
+            "many": "Anhänge"
+        },
+        "flag": {
+            "one": "Flagge",
+            "many": "Flaggen"
+        },
+        "page": {
+            "one": "Seite",
+            "many": "Seiten"
+        },
+        "label": {
+            "one": "Label",
+            "many": "Labels"
+        },
+        "arch_list": {
+            "one": "Archivierte Liste",
+            "many": "Archivierte Listen"
+        },
+        "arch_card": {
+            "one": "Archivierte Karte",
+            "many": "Archivierte Karten"
+        },
+        "arch_board": {
+            "one": "Archiviertes Board",
+            "many": "Archivierte Boards"
+        },
+        "product": {
+            "many": "Produkte",
+            "one": "Produkt"
+        },
+        "member": {
+            "one": "Mitglied",
+            "many": "Mitglieder"
+        },
+        "comment": {
+            "one": "Kommentar",
+            "many": "Kommentare"
+        },
+        "prefix": {
+            "one": "Präfix",
+            "many": "Präfixe"
+        },
+        "name": {
+            "one": "Name",
+            "many": "Namen"
+        },
+        "channel": {
+            "one": "Kanal",
+            "many": "Kanäle"
+        },
+        "visibility": "Sichtbarkeit",
+        "pref": {
+            "one": "Einstellung",
+            "many": "Einstellungen"
+        },
+        "bio": "Bio",
+        "bg_img": "Hintergrundbild",
+        "webhook": {
+            "one": "Webhook",
+            "many": "Webhooks"
+        },
+        "locale": "Sprache",
+        "in_lower": "in",
+        "item": {
+            "many": "Gegenstände",
+            "one": "Gegenstand"
+        },
+        "in": "In",
+        "short_link": {
+            "many": "Kurzlinks",
+            "one": "Kurzlink"
+        },
+        "vote_lower": {
+            "many": "Stimmen",
+            "one": "Stimme"
+        },
+        "member_type": {
+            "many": "Berechtigungsstufen",
+            "one": "Berechtigung"
+        },
+        "style": {
+            "many": "Stile",
+            "one": "Stil"
+        },
+        "color": {
+            "many": "Farben",
+            "one": "Farbe"
+        },
+        "url": "URL"
+    },
+    "trello": {
+        "comment_perms": {
+            "public": "Jeder Trellonutzer",
+            "disabled": "Deaktiviert",
+            "members": "Alle Mitglieder",
+            "org": "Teammitglieder"
+        },
+        "vote_perms": {
+            "disabled": "Deaktiviert",
+            "members": "Alle Mitglieder",
+            "org": "Teammitglieder",
+            "public": "Jeder Trellonutzer",
+            "observers": "Beobachter"
+        },
+        "label_color": {
+            "purple": "Lila",
+            "blue": "Blau",
+            "sky": "Hellblau",
+            "pink": "Pink",
+            "black": "Schwarz",
+            "none": "Keine Farbe",
+            "yellow": "Gelb",
+            "red": "Rot",
+            "green": "Grün",
+            "orange": "Orange",
+            "lime": "Hellgrün"
+        },
+        "new_due": "Neues Fälligkeitsdatum",
+        "to_board": "Zum Board",
+        "from_board": "Vom Board",
+        "invite_perms": {
+            "members": "Alle Mitglieder",
+            "admins": "Admins"
+        },
+        "member_type": {
+            "normal": "Normal",
+            "admin": "Admin",
+            "observer": "Beobachter"
+        },
+        "card_covers": "Karten Titelbild",
+        "subbed": "Beobachtet",
+        "self_join": "Teammitgliedern den Beitritt und das Bearbeiten erlauben",
+        "voted": "Abgestimmt",
+        "last_act": "Letzte Aktivität",
+        "add_rem_members": "Mitglieder hinzufügen/entfernen",
+        "colorblind": "Modus für Farbenblinde",
+        "marketing": "Werbe-E-Mails (opt-in)",
+        "locale": "Sprache (auf Trello)",
+        "pinned": "Angepinnt",
+        "archived_lower": "archiviert",
+        "old_desc": "Alte Beschreibung",
+        "new_desc": "Neue Beschreibung",
+        "prev_list": "Vorherige Liste",
+        "summ": "Berichte senden",
+        "hide_votes": "Abstimmung verbergen",
+        "old_name": "Alter Name",
+        "old_comment": "Alter Kommentar",
+        "new_comment": "Neuer Kommentar",
+        "old_due": "Altes Fälligkeitsdatum",
+        "products": {
+            "37": "⭐ Monatlich Trello Gold",
+            "38": "🌟 jährlichTrello Gold",
+            "10": "💼 Trello Gold durch Buisness Class"
+        },
+        "perm_levels": {
+            "public": "Öffentlich",
+            "org": "Für das Team sichtbar",
+            "private": "Privat"
+        },
+        "curr_list": "Aktuelle Liste",
+        "new_name": "Neuer Name",
+        "due": "Fälligkeitsdatum",
+        "one_chklist_name": "Alter Name der Checkliste",
+        "one_chkitem_name": "Alter Name des Checklistengegenstandes",
+        "card_aging": "Alter der Karte",
+        "item_src": "Quelle des Gegenstandes",
+        "voting": "Abstimmungen",
+        "starred": "Mit Stern markiert",
+        "template": "Ist es ein Vorlage?",
+        "new_v": "Neuer Wert",
+        "old_v": "Alter Wert",
+        "custom_field": "Persönliches Feld",
+        "card_age": {
+            "pirate": "Pirat",
+            "regular": "Normal"
+        },
+        "cover_source": "Quelle des Titelbilds"
+    },
+    "webhook_cmd": {
+        "discord_webhook": "Discord Webhook",
+        "trello_webhook": "Trello Webhook",
+        "owned_by": "Erstellt von",
+        "dwh": {
+            "one": "Discord Webhook",
+            "many": "Discord Webhooks"
+        },
+        "none": "Auf diesem Server gibt es keine Webhooks, die mit Trello verbunden sind.",
+        "invalid": "Ungültige WebhookID!",
+        "not_found": "Dieser Webhook existiert nicht!",
+        "whitelist": "Whitelist",
+        "blacklist": "Blacklist",
+        "filtered_list": {
+            "one": "Gefilterte Liste",
+            "many": "Gefilterte Listen"
+        },
+        "filtered_card": {
+            "one": "Gefilterte Karte",
+            "many": "Gefilterte Karten"
+        },
+        "allowed_actions": {
+            "one": "Erlaubte Aktion",
+            "many": "Erlaubte Aktionen"
+        },
+        "header": "Benutze `{{&cleanPrefix}}webhook <webhookID>` um einen Webhook anzuzeigen und `{{&cleanPrefix}}editwebhook <webhookID>` um den Webhook zu bearbeiten.",
+        "unknown": "Unbekannt",
+        "max_wh": "Du hast dein Maximum an webhooks erreicht! Du kannst dieses Limit erhöhen, indem du auf Patron spendest! (`{{&cleanPrefix}}donate`)",
+        "locale_set": "Die Webhook Sprache wurde zu **{{&name}}** gesetzt.",
+        "locale_unset": "Die Webhook Sprache wurde zurückgesetzt.",
+        "no_access": "Das Board existiert entweder nicht mehr, oder du hast keinen Zugriff mehr!",
+        "choose_cards": "Wähle die zu filternde Karten aus. Kein Auswahl wird den Filter deaktiviern.",
+        "choose_lists": "Wähle die zu filternde Listen aus. Kein Auswahl wird den Filter deaktiviern.",
+        "cards_updated": "Die Kartenfilter wurden gespeichert.",
+        "lists_updated": "Die Listenfilter wurden gespeichert.",
+        "to_blist": "Der Filtertyp wurden zu Blacklist geändert.",
+        "to_wlist": "Der Filtertyp wurden zu Whitelist geändert.",
+        "repaired": "Fehler, die bei der Benutzung des Webhooks aufgetreten sind, wurden behoben.",
+        "repaired_wh": "Webhook wurde repariert",
+        "repair_dwh_header": "Der Discord Webhook fehlt. Wie willst du einen neuen erstellen?",
+        "filter_update": "Die Filtereinstellungen des Webhooks wurden aktualisiert.",
+        "deleted": "Der Webhook wurde gelöscht.",
+        "confirm_delete": "Bist du sicher, dass du diesen Webhook löschen möchtest?",
+        "wh_on": "Der Webhook wurde wieder aktiviert.",
+        "wh_off": "Der Webhook wurde vorrübergehend deaktiviert.",
+        "wywtd": "Wähle aus, was du mit dem Webhook machen willst.",
+        "no_server_link": "Dieser Webhook existiert nicht auf diesem Server!",
+        "no_link": "Ich konnte in deinem Input keine Webhook URL finden!",
+        "input_link": "Füge den Link von dem Webhook ein, den du benutzen möchtest.",
+        "choose_existwh": "Wähle den Webhook aus, den ich benutzen soll.",
+        "no_dwh": "Es existieren keine Discord Webhooks, denen ich den Webhook anhängen könnte!",
+        "create_confirm": "Dieser Webhook empfängt ab jetzt Änderungen von dem Trello Board \"{{&name}}\"! Sie sollten bald anfangen, hier aufzutauchen…",
+        "created": "Ein Webhook mit dem Namen \"{{&name}}\" wurde erstellt.",
+        "couldnt_create": "Ich konnte keinen Webhook erstellen! Das lag wahrscheinlich an plötzlichen Berechtigungsänderungen während dem Erstellungsvorgang!",
+        "choose_channel": "Wähle einen Kanal aus, in dem der Webhook die Daten schicken soll.",
+        "no_channels": "Ich konnte keinen Kanal finden, in dem ich Webhooks bearbeiten darf.",
+        "edit_menu": {
+            "blist": "Filter zu einer Blacklist ändern",
+            "wlist": "Filter zu einer Whitelist ändern",
+            "cards": "Kartenfilter bearbeiten",
+            "lists": "Listenfilter bearbeiten",
+            "locale": "Webhooksprache änder",
+            "repair": "Webhook reparieren",
+            "delete": "Webhook löschen",
+            "filter": "Filter bearbeiten",
+            "off": "Deaktivieren",
+            "on": "Aktivieren",
+            "style": "Stil ändern"
+        },
+        "menu": {
+            "link": "Benutze einen Link zu einem bestehendem Webhook",
+            "exist": "Benutze einen bestehenden Webhook",
+            "add": "Erstelle einen neuen Webhook"
+        },
+        "add_header": "Wie soll dein Webhook eingerichtet werden?",
+        "try_repair": "Du kannst diesen Fehler mit `{{&cleanPrefix}}editwebhook {{&id}} repair` beheben",
+        "twh_missing": "Der Benutzer, der den Webhook erstellt hat, fehlt. Deswegen wird der Webhook keine Daten mehr senden!",
+        "dwh_missing": "Der Discord Webhook, der mit diesem Webhook verknüpft ist, fehlt!",
+        "model_filter": "Filtermodus der Liste/Karte",
+        "styles": {
+            "compact": {
+                "description": "Kombiniert mehrere Events in ein einziges Embed, ähnlich zu Github Webhook commits",
+                "name": "Komprimiert"
+            },
+            "small": {
+                "description": "Eine verkleinerte Version, die nur einen Beschreibenden Titel beinaltet",
+                "name": "Klein"
+            },
+            "default": {
+                "description": "Normale Nachrichten, die so viel Informationen zeigen, wie möglich",
+                "name": "Standard"
+            }
+        },
+        "style_set": "Der Webhook Stil wurde auf **{{&name}}** gesetzt.",
+        "choose_style": "Antworte mit der Nummer des Stils in dem du den Webhook zukünftig angezeigt bekommen willst."
+    },
+    "commands": {
+        "me": {
+            "description": "Zeigt dir Informationen über dein Trello-Board."
+        },
+        "shardinfo": {
+            "description": "Gibt dir die Informationen zu allen Shards."
+        },
+        "prefix": {
+            "usage": "[\"set\"|\"add\"|\"remove\"] [Präfix]",
+            "description": "Läst dich den Präfix für den Server oder dich bearbeiten."
+        },
+        "locale": {
+            "usage": "[\"userset\"|\"serverset\"] [Sprache]",
+            "description": "Lässt dich die Serversprache für den Bot einstellen. Führe den befehl ohne Argumente aus, um eine Liste mit verfügbaren Sprachen zu erhalten."
+        },
+        "ping": {
+            "description": "Pong!"
+        },
+        "info": {
+            "description": "Gibt Informationen zum Bot."
+        },
+        "help": {
+            "usage": "[Befehl]",
+            "description": "Zeigt die Hilfenachricht und gibt Informationen über Befehle."
+        },
+        "hangman": {
+            "description": "???"
+        },
+        "restart": {
+            "description": "Startet den Bot neu."
+        },
+        "reloadwebserver": {
+            "description": "Startet den Webserver neu."
+        },
+        "reloadone": {
+            "usage": "<Name des Befehls> [Name des Befehls] …",
+            "description": "Einzelnen Befehl neu laden."
+        },
+        "reloadlocale": {
+            "description": "Lokale Dateien neu laden."
+        },
+        "reload": {
+            "description": "Befehle neu laden."
+        },
+        "exec": {
+            "usage": "<Befehl> …",
+            "description": "Verwendet `child_process.exec`."
+        },
+        "eval": {
+            "usage": "<code>",
+            "description": "Liest den Code."
+        },
+        "asynceval": {
+            "usage": "<code>",
+            "note": "Wegen einem Hinzugefügtem async IIFE wrapper in diesem Befehl, ist es notwendig einen Rückgabe zu deklarieren.\nBsp.: `{{&cleanPrefix}}aeval return 1`",
+            "description": "Liest Code asynchron."
+        },
+        "serverinvite": {
+            "description": "Eine Einladung zum Support Server."
+        },
+        "invite": {
+            "description": "Der Einladungslink für den Bot."
+        },
+        "github": {
+            "description": "Gibt den Githublink zu dem OpenSource link des Bots zurück."
+        },
+        "donate": {
+            "description": "Gibt den Link zurück, um die Entwickler des Bots zu unterstützen."
+        },
+        "auth": {
+            "description": "Gibt den Authentifzierungslink zurück, um deinen Discord Account mit Trello zu vernüpfen."
+        },
+        "boards": {
+            "description": "Eine Liste mit allen Boards, die du verwalten kannst.",
+            "usage": "[Seite]"
+        },
+        "switch": {
+            "usage": "[ID des Boards| Name des Boards]",
+            "description": "Wählt ein Board aus, auf dem dann weitere Befehle ausgeführt werden können. Für ein Liste mit verfügbaren Boards, benutze den Befehl `{{&cleanPrefix}}boards`."
+        },
+        "board": {
+            "description": "Gibt Infomartionen über das aktuelle Board."
+        },
+        "lists": {
+            "description": "Listet alle offenen Listen auf dem aktuellen Board. Archivierte Listen können mit `{{&cleanPrefix}}listarchive` eingesehen werden.",
+            "usage": "[Seite]"
+        },
+        "list": {
+            "description": "Listet alle Karten in der Liste.",
+            "usage": "[Name|ID der Liste] [Seite]"
+        },
+        "listarchive": {
+            "description": "Listet alle archivierten Listen auf dem aktuellen Board.",
+            "usage": "[Seite]"
+        },
+        "card": {
+            "description": "Gibt Informationen über eine spezifische Karte.",
+            "usage": "[Kartenname|Kartenid]"
+        },
+        "cardarchive": {
+            "description": "Listet alle archivierten Karten auf dem aktuellen Board.",
+            "usage": "[Seite]"
+        },
+        "star": {
+            "usage": "[Name|ID des Boards]",
+            "description": "Favorisiere ein Board. Wenn kein Board angeben wird, wird das aktuelle Board verwendet. Favorisierte Boards werden in deiner Boardliste auf [Trello] (https://trello.com/) ganz oben angezeigt."
+        },
+        "watch": {
+            "usage": "[Name|ID des Boards]",
+            "description": "Beobachte ein Board. Wenn kein Board angegeben wird, wird das aktuelle Board benutzt. Beobachtete Board schicken dir Updates per [Trello] (https://trello.com/) Benachricjtungen."
+        },
+        "watchlist": {
+            "usage": "[Name|ID der Liste]",
+            "description": "Beobachte eine Liste. Beobachtete Listen schicken dir Updates per [Trello] (https://trello.com) Benachrichtigungen."
+        },
+        "watchcard": {
+            "usage": "[Name|ID der Karte]",
+            "description": "Beobachte eine Karte. Beobachtete Karten schicken dir Ändrungen per [Trello] (https://trello.com) Benachrichtigungen."
+        },
+        "toggleuser": {
+            "usage": "<BenutzerID>",
+            "description": "Aktiviert/Deaktiviert die Nutzer Blacklist"
+        },
+        "toggleserver": {
+            "usage": "<ServerID>",
+            "description": "Aktiviert/Deaktiviert die Server Blacklist."
+        },
+        "vote": {
+            "description": "Zeigt dir die Links, auf denen du Taco bewerten kannst."
+        },
+        "setmaxwebhooks": {
+            "usage": "<serverID> [Limit]",
+            "description": "Setzte das Webhooklimit für diesen Server."
+        },
+        "cleardata": {
+            "description": "Enfernt alle Benutzerdaten von Taco."
+        },
+        "clearauth": {
+            "description": "Entfernt deine Authorisierung mit Trello. mache das nur, wenn es wirklich sein muss."
+        },
+        "remwebhook": {
+            "usage": "<webhookID>",
+            "description": "Löscht einen Webhook von deinem Server."
+        },
+        "editwebhook": {
+            "note": "`activate`, `deactivate` - Aktiviert oder deaktiviert einen Webhook\n`filters` - Bearbeitet die Filter (bis jetzt \"Webhook Bits\") dieses Webhooks\n`locale [locale]` - >Setzt die Sprache des Webhooks\n`repair` - Enfernt jeglichen Webhookfehler\n`delete` - Löscht den Webhook\n`policy` - Ändert die Art des Webhookfilters (whitelist/blacklist)\n`style` - Ändert den Stil des Webhooks\n`lists` - Bearbeite den Listenfilter\n`cards` - Bearbeite den Kartenfilter",
+            "usage": "<webhookID> [Unterbefehl]",
+            "description": "Bearbeitet einen Webhook auf deinem Server. Lies die Notizen für mehr Information zu Unterbefehlen und der Benutzung."
+        },
+        "addwebhook": {
+            "usage": "[ID|Name des Boards]",
+            "description": "Erstellt einen Webhook auf deinem Server."
+        },
+        "webhook": {
+            "usage": "<webhookID>",
+            "description": "Zeige Informationen zu einem spezifischem Webhook."
+        },
+        "webhooks": {
+            "usage": "[Seite]",
+            "description": "Listet die Webhooks auf deinem Server auf."
+        },
+        "comment": {
+            "usage": "[Name|ID der Karte] [Kommentar]",
+            "description": "Kommentiere eine Karte im aktuellen Board."
+        },
+        "addlist": {
+            "usage": "[Name]",
+            "description": "erstellt ein Karte im aktuellen Board."
+        },
+        "deletecard": {
+            "usage": "[Name|ID der Karte]",
+            "description": "Löscht eine Karte."
+        },
+        "addcard": {
+            "usage": "[Name|ID der Liste] [Name]",
+            "description": "Erstellt eine Karte."
+        },
+        "editcard": {
+            "note": "`name [newName]` - Karte umbenennen\n`archive`, `unarchive` - Karte archivieren/wiederherstellen\n`desc [newDescription]` - Setzte die Beschreibung der Karte\n`removedesc` - Entferne die beschreibung der Karte\n`label` - Verwalte die Labels der Karte\n`members` Verwalte die Mitglieder der Karte\n`move`, `mv` - Verschiebt die Karte zu einer anderen Liste\n`due` - Setzt die Frist der Karte\n`duedone` - Markiert die Frist der Karte als erledigt\n`removedue` - Entfernt die Frist der Karte\n`attach` - Erstellt einen neuen Anhang an die Karte\n`attachments`, `atch` - Verwalte die Anhänge",
+            "usage": "[Name|ID der Karte] [Unterbefehl] …",
+            "description": "Bearbeite die Einstellungen der Karte. Schau die Notizen an, um Unterbefehle und die Benutzung zu sehen."
+        },
+        "editlist": {
+            "note": "`name [newName]` - Liste umbenennen\n`archive`, `unarchive` - Liste archivieren/wiederherstellen",
+            "usage": "[Name|ID der Liste] [Unterbefehl] …",
+            "description": "Bearbeite die Einstellungen der Liste. Schau die Notizen an, um Unterbefehle und die Benutzung zu sehen."
+        },
+        "editboard": {
+            "note": "`name [newName]` - Das Board umbenennen (nur Board-Admins)\n`archive`, `unarchive` - Das Board archivieren/weiderherstellen(nur Board-Admins)\n`desc [newDescription]` - Setzte die beschreibung des Boards\n`removedesc` - Entfernt die Beschreibung des Boards\n`commentperms` - Ändert die Kommentarberechtigung (nur Board-Admins)\n`voteperms` - Ändert die Abstimmungsberechtigung (nur Board-Admins)\n`inviteperms` - Ändert die Einladungsberechtigung (nur Board-Admins)",
+            "usage": "[Unterbefehl] …",
+            "description": "Bearbeite die Einstellungen des aktuellen Boards. Schau die Notizen an, um Unterbefehle und die Benutzung zu sehen."
+        },
+        "addlabel": {
+            "usage": "[Name]",
+            "description": "Erstellt ein Label auf dem aktuell ausgewähltem Board."
+        },
+        "attachment": {
+            "usage": "[Name|ID der Karte] [Name|ID des Anhangs]",
+            "description": "Zeigt einen Anhang, der an die Karte angehängt ist."
+        },
+        "deletelabel": {
+            "usage": "[labelName|labelID]",
+            "description": "Löscht ein Label."
+        },
+        "editlabel": {
+            "note": "`name [neuerName]` - Das Label umbennen\n`color [neueFarbe]` - Ändere die Farbe des Labels",
+            "usage": "[labelName|labelID] [subcommand] …",
+            "description": "Bearbeite die Eigenschaften eines Labels. Schau dir für Unterbefehle und die Benutzung die Notizen an."
+        },
+        "label": {
+            "usage": "[labelName|labelID]",
+            "description": "Zeigt genauere Informationen zu einem Label auf dem aktuellen Board."
+        },
+        "labels": {
+            "usage": "[Seite]",
+            "description": "Listet alle Labels des aktuell ausgewählten Boards auf."
+        }
+    },
+    "command_permissions": {
+        "elevated": "Nur privelegierte Nutzer können diesen Befehl ausführen!",
+        "userData": "Deine Einstellungen können nicht in der Datnebank gefunden werden!",
+        "webhooks": "Ich brauche die Berechtigung `Webhooks verwalten` um diesen Befehl auszuführen! **Diese Berechtigung sollte besser Serverweit der Rolle gegeben werden, als nur in einem Kanal**",
+        "discordAuth": "Du hast deinen Trello Account nicht mit Discord verknüpft!\nMit `{{&cleanPrefix}}auth` kannst du das jetzt machen!",
+        "selectedBoard": "Du hast kein Board ausgewählt!\nWähle mit `{{&cleanPrefix}}switch`eins aus!",
+        "auth": "Du hast deinen Trello Account nicht mit Discord verknüpft!\nMit `{{&cleanPrefix}}auth` kannst du das jetzt machen!",
+        "trelloRole": "Um diesen Befehl auszuführen, muss der Server dir gehören oder du eine Rolle namens`Trello` zugewiesen haben!",
+        "emoji": "Ich brauche die Berechtigung `Externe Emojis benutzen` um diesen Befehl auszuführen!",
+        "embed": "Ich brauche die Berechtigung `Links einbetten` um diesen Befehl auszuführen!",
+        "attach": "Ich brauche die Berechtigung `Dateien anhängen` um diesen Befehl auszuführen!",
+        "guild": "Dieser Befehl muss auf einem Server ausheführt werden!"
+    },
+    "categories": {
+        "misc": "Verschiedenes",
+        "hidden": "Versteckt",
+        "edit": "Bearbeitung",
+        "webhook": "Webhooks",
+        "view": "Einsehen",
+        "user": "Benutzerverwaltung",
+        "dev": "Entwickler",
+        "general": "Generell"
+    },
+    "format": {
+        "second": {
+            "many": "{{seconds}} Sekunden",
+            "one": "{{seconds}} Sekunde"
+        }
+    },
+    "use_this": "Benutze diesen Befehl:",
+    "deprecated": "Diesen Befehl gibt es nicht mehr!",
+    "bad_args": "Zu wenig Argumente!",
+    "cooldown_msg": "Nicht so schnell! Wir brauchen Zeit! *({{seconds}})*",
+    "setmaxwebhooks": {
+        "invalid": "Ungültige ID!",
+        "set": "Setzte das Webhooklimit für {{serverID}} zu {{value}}."
+    },
+    "prompt": {
+        "no_confirm": "Die Bestätigung wurde abgebrochen.",
+        "confirm": "Bist du sicher, dass du das machen willst?",
+        "input_canceled": "Deine letzte Eingabe wurde abgebrochen.",
+        "cancel_input": "Um die Eingabe abzubrechen, schreibe \"{{&cancelPrompt}}\".",
+        "no_search": "Die Suche ergab keinen Treffer.",
+        "canceled": "Deine letzte Anfrage wurde abgebrochen.",
+        "timeout": "Du hast zu lange zum Antworten gebraucht. Deine letzte Anfrage wurde deswegen abgebrochen.",
+        "cancel": "Schreibe \"cancel\" um diese Anfrage abzubrechen.",
+        "list": "Mögliche Eingaben",
+        "input": "Schreibe die Nachricht, die du einfügen willst.",
+        "choose": "Schreibe die Nummer des Gegenstandes, den du benutzen willst.",
+        "cancel_confirm": "Schreibe zum Bestätigen`yes`. Jede andere Nachricht wird die Bestätigung abbrechen.",
+        "select_timeout": "Du hast zu lange gebraucht, um auf die letzte Anfrage zu antworten. Alle Änderungen wurden verworfen.",
+        "select_canceled": "Deine letzte Anfrage wurde abgebrochen. Alle Änderungen wurden verworfen.",
+        "select_cancel": "Schreibe \"save\", um die Eingabe zu speichern oder \"cancel\" um die Eingabe anzubrechen.",
+        "select": "Tippe die Nummer des Gegenstandes, dessen Wert du ändern willst.",
+        "async_select": "Antworte mit der Nummer des Gegenstandes, um seinen Wert zu ändern. **Änderungen werden gespeichert, sobald geantwortet wird.**"
+    },
+    "trello_response": {
+        "aborted": "Trello hat zu lange für eine Antwort gebraucht! Bitte versuche es später erneut!",
+        "ratelimit": "Es werden zu viele Anfragen gesendet! Bitte versuche es später erneut!",
+        "internal": "Ein interner Serverfehler ist auf Seiten von Trello aufgetreten! Bitte versuche es später erneut!",
+        "unauthorized": "Die letzte Authorisierung ist ungültig oder wurde aufgehoben. Bitte authorisiere dich erneut mit `{{&cleanPrefix}}auth`!"
+    },
+    "error": "Während der Bearbeitung des Befehls trat ein Fehler auf!",
+    "vote": {
+        "rate": "Bewertung",
+        "review": "Bewerung",
+        "title": "Du kannst {{&username}} auf diesen Seiten bewerten:"
+    },
+    "webhooks": {
+        "due_on": "{{&member}} hat das Fälligkeitsdatum auf der Karte \"{{&card}}\" abgeschlossen",
+        "rename_card": "{{&member}} hat die Karte \"{{&oldName}}\" zu \"{{&card}}\" umbenannt",
+        "move_card": "{{&member}} hat die Karte \"{{&card}}\" in die Liste \"{{&list}}\" verschoben",
+        "move_card_in_list": "{{&member}} hat die Karte \"{{&card}}\" an eine neue Stelle in der Liste verschoben",
+        "rem_card_desc": "{{&member}} hat die Beschreibung für die Karte \"{{&card}}\" entfernt",
+        "edit_card_desc": "{{&member}} hat die Beschreibung für die Karte \"{{&card}}\" aktualisiert",
+        "add_card_desc": "{{&member}} hat eine Beschreibung für die Karte \"{{&card}}\" hinzugefügt",
+        "delete_comment": "{{&member}} hat seinen Kommentar auf der Karte \"{{&card}}\" gelöscht",
+        "update_comment": "{{&member}} hat seinen Kommentar auf der Karte \"{{&card}}\" aktualisiert",
+        "commented": "{{&member}} hat auf der Karte \"{{&card}}\" einen Kommentar dagelassen",
+        "checklist_delete": "{{&member}} hat die Checkliste \"{{&checklist}}\" von \"{{&card}}\" entfernt",
+        "checklist_create": "{{&member}} hat die Checkliste \"{{&checklist}}\" auf \"{{&card}}\" erstellt",
+        "checklist_rename": "{{&member}} hat eine Checkliste auf der Karte \"{{&card}}\" umbenannt",
+        "checklist_move": "{{&member}} hat eine Checkliste auf der Karte \"{{&card}}\" an eine andere Stelle verschoben",
+        "checkitem_rename": "{{&member}} hat in der Karte \"{{&card}}\" einen Checklistengegenstand umbenannt",
+        "checkitem_move": "{{&member}} hat einen Checklistengegenstand in \"{{&card}}\" an eine andere Stelle verschoben",
+        "checkitem_tocard": "{{&member}} hat den Checklistengegenstand \"{{&card}}\" in eine Karte konvertiert",
+        "checkitem_delete": "{{&member}} hat einen Checklistengegenstand von \"{{&card}}\" entfernt",
+        "unvote_card": "{{&member}} hat seine Stimme auf der Karte \"{{&card}}\" entfernt",
+        "checkitem_create": "{{&member}} hat einen neuen Checklistengegenstand auf \"{{&card}}\" erstellt",
+        "due_off": "{{&member}} hat das Fälligkeitsdatum der Karte \"{{&card}}\" als unvollständig markiert",
+        "checkitem_state_off": "{{&member}} hat \"{{&checklistItem}}\" auf der Karte \"{{&card}}\" als unvollständig markiert",
+        "checkitem_state_on": "{{&member}} hat \"{{&checklistItem}}\" auf der Karte \"{{&card}}\" abgeschlossen",
+        "vote_card": "{{&member}} hat auf der Karte \"{{&card}}\" abgestimmt",
+        "delete_card": "{{&member}} hat die Karte {{&cardID}} gelöscht",
+        "create_card": "{{&member}} hat die Karte \"{{&card}}\" erstellt",
+        "unarchive_card": "{{&member}} hat die karte \"{{&card}}\" aus dem Archiv wiederhergestellt",
+        "archive_card": "{{&member}} hat die Karte \"{{&card}}\" archiviert",
+        "due_remove": "{{&member}} hat das Fälligkeitsdatum von der Karte \"{{&card}}\" entfernt",
+        "due_add": "{{&member}} hat ein Fälligkeitsdatum zu Karte \"{{&card}}\" hinzugefügt",
+        "due_change": "{{&member}} hat das Fälligkeitsdatum der Karte \"{{&card}}\" wurde aktualisiert",
+        "customfield_rename": "{{&member}} hat das benutzerdefinierte Feld von \"{{&oldName}}\" zu \"{{&customField}}\" umbenannt",
+        "customfield_delete": "{{&member}} hat das benutzerdefinierte Feld \"{{&customField}}\" gelöscht",
+        "customfield_create": "{{&member}} hat das benutzerdefinierte Feld \"{{&customField}}\" erstellt",
+        "copy_card": "{{&member}} hat die Karteninhalte von \"{{&sourceCard}}\" zu \"{{&card}}\" kopiert",
+        "copy_checklist": "{{&member}} hat die Checkliste \"{{&checklist}}\" von \"{{&sourceChecklist}}\" kopiert",
+        "move_in_card": "{{&member}} hat die Karte \"{{&card}}\" von einem anderen Board hierhin verschoben",
+        "move_in_list": "{{&member}} hat die List \"{{&list}}\" von einem anderen Board hierhin verschoben",
+        "move_out_card": "{{&member}} hat die Karte \"{{&card}}\" auf ein anderes Board verschoben",
+        "move_out_list": "{{&member}} hat die Liste \"{{&list}}\" in ein anderes Board verschoben",
+        "board_set_perm_levels": "{{&member}} hat die Sichtbarkeit des Boards von {{&oldPerm}} auf {{&perm}} gesetzt",
+        "board_set_vote_perms": "{{&member}} hat die Abstimmungsberechtigung von {{&oldPerm}} auf {{&perm}} gesetzt",
+        "board_set_comment_perms": "{{&member}} hat die Kommentarberechtigung von {{&oldPerm}} auf {{&perm}} gesetzt",
+        "board_set_invite_perms": "{{&member}} hat die Einladungsberechtigung von {{&oldPerm}} auf {{&perm}} gesetzt",
+        "unarchive_board": "{{&member}} hat das Board wieder geöffnet",
+        "archive_board": "{{&member}} hat das Board geschlossen",
+        "rem_board_desc": "{{&member}} hat die Beschreibung vom Board entfernt",
+        "edit_board_desc": "{{&member}} hat eine neue Beschreibung für das Board geschrieben",
+        "add_board_desc": "{{&member}} hat eine Beschreibung für das Board geschrieben",
+        "board_rename": "{{&member}} hat das Board \"{{&oldName}}\" zu \"{{&board}}\" umbenannt",
+        "board_to_normal_self": "{{&member}} hat wich selbst zu einem normalen Mitglied degradiert",
+        "board_to_normal": "{{&member}} zu einem {{&member2}} normalen Mitglied degradiert",
+        "board_to_admin": "{{&member}} hat {{&member2}} zum Administrator ernannt",
+        "board_join": "{{&member}} ist dem Board beigetreten",
+        "board_left": "{{&member}} hat das Board verlassen",
+        "board_remove_member": "{{&member}} hat {{&member2}} vom Board entfernt",
+        "board_add_member": "{{&member}} hat {{&member2}} zum Board hinzugefügt",
+        "card_remove_self": "{{&member}} hat sich selbst von der Karte \"{{&card}}\" entfernt",
+        "card_add_self": "{{&member}} hat sich selbst zur Karte \"{{&card}}\" hinzugefügt",
+        "card_remove_member": "{{&member}} hat {{&member2}} von der Karte \"{{&card}}\" entfernt",
+        "card_add_member": "{{&member}} hat {{&member2}} zur Karte \"{{&card}}\" hinzugefügt",
+        "card_remove_label": "{{&member}} hat des Label \"{{&label}}\" von der Karte \"{{&card}}\" entfernt",
+        "card_add_label": "{{&member}} hat das Label \"{{&label}}\" zur Karte \"{{&card}}\" hinzugefügt",
+        "unattach_card": "{{&member}} hat den Anhang\"{{&attachment}}\" von der Karte \"{{&card}}\" entfernt",
+        "attach_card": "{{&member}} hat \"{{&attachment}}\" an die Karte \"{{&card}}\" angehängt",
+        "delete_label": "{{&member}} hat das Label {{&labelID}} gelöscht",
+        "label_recolor": "{{&member}} hat die Farbe des Labems \"{{&label}}\" von {{&oldColor}} auf {{&color}} geändert",
+        "label_rename": "{{&member}} hat das Label \"{{&oldName}}\" zu \"{{&label}}\" umbenannt",
+        "create_label": "{{&member}} hat das Label \"{{&label}}\" erstellt",
+        "list_move": "{{&member}} hat die Liste \"{{&list}}\" an eine andere Stelle verschoben",
+        "list_rename": "{{&member}} hat die Liste \"{{&oldName}}\" zu \"{{&list}}\" umbennant",
+        "unarchive_list": "{{&member}} hat die Liste \"{{&list}}\" aus dem Archiv wiederhergestell",
+        "archive_list": "{{&member}} hat die Liste \"{{&list}}\" archiviert",
+        "create_list": "{{&member}} hat die Liste \"{{&list}}\" erstellt",
+        "customfielditem_update": "{{&member}} hat das benutzerdefinierte Feld \"{{&customField}}\" auf der Karte \"{{&card}}\" bearbeitet",
+        "customfielditem_remove": "{{&member}} hat das benutzerdefinierte Feld \"{{&customField}}\" von der Karte \"{{&card}}\" gelöscht",
+        "customfielditem_checkbox_true": "{{&member}} hat das benutzerdefinierte Feld \"{{&customField}}\" auf der Karte \"{{&card}}\" als abgeschlossen markiert",
+        "customfielditem_checkbox_false": "{{&member}} hat das benutzerdefinierte Feld \"{{&customField}}\" auf der Karte \"{{&card}}\" als nicht abgeschlossen markiert"
+    },
+    "and_more": "Und {{count}} mehr…",
+    "user_mgmt": {
+        "cleardata": "Deine Benutzerdaten wurde vollständig gelöscht.",
+        "cleardata_confirm": "Bist du sicher, dass du deine Daten löschen möchtest? Folgendes wird passieren:\n- Deine Präfixe und Spracheinstellungen werden gelöscht.\n- Deine Authorization mit Trello wird gelöscht.\n- Dein Trello Token wird ungültig.\n- Alle Webhooks, die du erstellt hast, werden nicht mehr funktionieren und müssen repariert werden.",
+        "clearauth": "Deine Authorization wurde entfernt.",
+        "clearauth_confirm": "Bist du sicher, dass du deine Authorization entfernen möchtest? Folgendes wird passieren:\n- Dein Trello Token wird ungültig.\n- Alle Webhooks, die du erstellt hast, werden nicht mehr funktionieren und müssen repariert werden.",
+        "unstar_board": "Das Board \"{{&name}}\" wird nicht länger favorisiert. (`{{id}}`)",
+        "star_board": "Das Board \"{{&name}}\" wurde zu deinen Favoriten hinzugefügt. (`{{id}}`)",
+        "unsub_board": "Das Board \"{{&name}}\" wird nicht länger beobachtet. (`{{id}}`)",
+        "sub_board": "Das Board \"{{&name}}\" wird jetzt beobachtet. (`{{id}}`)",
+        "unsub_list": "Die Liste \"{{&name}}\" wird nicht länger beobachtet. (`{{id}}`)",
+        "sub_list": "Die Liste \"{{&name}}\" wird jetzt beobachtet. (`{{id}}`)",
+        "unsub_card": "Die Karte \"{{&name}}\" wird nicht mehr beobachtet. (`{{id}}`)",
+        "sub_card": "Die Karte \"{{&name}}\" wird jetzt beobachtet. (`{{id}}`)",
+        "star_error": "Bei der Verarbeitung ist auf Seiten Trello's ein Fehler aufgetreten! Versuche es später nochmal!"
+    },
+    "prefix": {
+        "none": "Du hast keine Präfixe, die du entfernen könntest!",
+        "already": "Dieser Präfix existiert bereits!",
+        "mention": "Du darfst in Präfixen niemanden erwähnen!",
+        "limit": "Du hast zu viele Präfixe! Entferne mindestens einen, um einen neuen hinzufügen zu können!",
+        "char_limit": "Präfixe dürfen maximal 32 Zeichen lang sein!",
+        "choose": "Antworte mit der Nummer des Präfixes, den du entfernen willst.",
+        "removed": "Der Präfix `{{&prefix}}` wurde entfernt.",
+        "added": "Der Präfix `{{&prefix}}` wurde hinzugefügt.",
+        "set_server": "Der Server Präfix wurde auf `{{&prefix}}` gesetzt.",
+        "footer": "Präfixe mit dem 🔒 Icon können nicht entfernt werden.",
+        "no_arg": "Antworte mit dem Präfix, den du hinzufügen willst!",
+        "no_arg_server": "Antworte mit dem Präfix, den du für diesen Server setzten willst!",
+        "can_add": {
+            "many": "Du kannst {{count}} weitere Präfixe hinzufügen.",
+            "one": "Du kannst {{count}} weiteren Präfix hinzufügen.",
+            "zero": "Du kannst keine weitern Präfixe mehr hinzufügen."
+        },
+        "server": "Server Präfix"
+    },
+    "lists": {
+        "created": "Die Liste \"{{&name}}\" wurde erstellt. (`{{id}}`)",
+        "input_new": "Antworte mit dem Namen der Liste, die du erstellen willst.",
+        "unarchived": "Die Liste \"{{&name}}\" wurde aus dem Archiv wiederhergestellt.",
+        "archived": "Die Liste \"{{&name}}\" wurde archiviert.",
+        "input_name": "Antworte mit dem neuen Namen der Liste.",
+        "set_name": "Die Liste wurde von \"{{&old}}\" zu \"{{&new}}\" umbenannt.",
+        "menu": {
+            "sub_off": "Beobachte die Liste nicht mehr",
+            "sub_on": "Beobachte die Liste",
+            "archive_off": "Stelle die Liste wieder aus dem Archiv her",
+            "archive_on": "Archiviere die Liste",
+            "name": "Bearbeite den Namen"
+        },
+        "wywtd": "Wähle, was du mit der Liste machen willst.",
+        "choose": "Antworte mit der Nummer der Liste, die du benutzen willst.",
+        "list_header": "Benutze `{{&cleanPrefix}}card <cardID|cardName>` um Informationen zu eine Karte zu bekommen.",
+        "arch_header": "Benutze `{{&cleanPrefix}}editlist <listID|listName> unarchive`um eine Liste wiederherzustellen.",
+        "header": "Benutze `{{&cleanPrefix}}list <listID|listName>`um eine Liste anzuzeigen.",
+        "arch_none": "Diese Board hat keine archivierten Listen.",
+        "list_none": "Diese Liste hat keinen Inhalt.",
+        "none": "Dieses Board hat keinen Inhalt."
+    },
+    "cards": {
+        "add_attach": "Der Anhang wurde auf der Karte \"{{&name}}\" hinzugefügt.",
+        "bad_attach": "Ungültiger Link!",
+        "input_attach": "Antworte mit einem Link zu dem Anhang, den du hinzufügen willst. Du kannst auch mit einem Anhang antowrten.",
+        "commented": "Auf der Karte \"{{&name}}\" wurde ein Kommentar hinzugefügt.",
+        "input_comment": "Schreibe den Kommentar, den du zur Karte hinzufügen willst.",
+        "due_off": "Das Fälligkeitsdatum der Karte \"{{&name}}\" wurde als unvollständig gekennzeichnet.",
+        "due_on": "Das Fälligkeitsdatum der Karte \"{{&name}}\" wurde abgeschlossen.",
+        "removed_due": "Das Fälligkeitsdatum der Karte \"{{&name}}\" wurde entfernt.",
+        "removed": "Die Karte \"{{&name}}\" wurde gelöscht. (`{{id}}`)",
+        "remove_confirm": "Bist du sicher, dass die Karte \"{{&name}}\" löschen willst? (`{{id}}`)",
+        "created": "Die Karte \"{{&name}}\" wurde erstellt. (`{{id}}`)",
+        "input_new": "Antworte mit einem Namen für die neue Karte.",
+        "removed_desc": "Hat die Beschreibung von \"{{&name}}\" entfernt.",
+        "input_desc": "Antworte mit der neuen Kartenbeschreibung.",
+        "set_desc": "Die Beschreibung der Karte \"{{&name}}\" wurde geändert.",
+        "unarchived": "Die Karte \"{{&name}}\" wurde wiederhergestellt.",
+        "archived": "Die Karte \"{{&name}}\" wurde archiviert.",
+        "input_name": "Antworte mit dem neuen Namen der Karte.",
+        "set_name": "Der Name wurde von \"{{&old}}\" auf \"{{&new}}\" gesetzt.",
+        "menu": {
+            "attach": "Füge einen Anhang hinzu",
+            "due_off": "Setzt das Fälligkeitsdatum auf nicht abgeschlossen",
+            "due_on": "Schließe das Fälligkeitsdatum ab",
+            "remove_due": "Entferne das Fälligkeitsdatum",
+            "sub_off": "Die Karte nicht mehr beobachten",
+            "sub_on": "Die Karte beobachten",
+            "remove_desc": "Beschreibung entfernen",
+            "desc": "Beschreibung bearbeiten",
+            "archive_off": "Vom Archiv wiederherstellen",
+            "archive_on": "Archivieren",
+            "name": "Den Namen bearbeiten",
+            "due": "Fälligkeitsdatum setzten",
+            "attachments": "Anhänge bearbeiten",
+            "member": "Mitgliederzuordnung verwalten",
+            "label": "Labels verwalten",
+            "move": "Karte in eine andere Liste verschieben"
+        },
+        "wywtd": "Wähle aus, was du mit dieser Karte machen willst.",
+        "choose": "Antworte mit der Nummer der Karte, die du benutzen willst.",
+        "error": "Ich konnte die Daten der Karte nicht abrufen! Wenn die Karte nicht gelöscht wurde, war das wahrscheinlich ein Fehler von Trello!",
+        "arch_header": "Um eine Karte zu öffnen, benutze `{{&cleanPrefix}}editcard <listID|listName> unarchive`.",
+        "arch_none": "Es befinden sich keine archivierten Karten auf diesem Board.",
+        "none": "Auf diesem Board befinden sich keine Karten.",
+        "set_due": "Das Fälligkeitsdatum wurde auf {{&date}} gesetzt.",
+        "bad_due": "Das Datum habe ich nicht erkannt. Versuche es mit Ausdrücken wir \"Morgen um 9\" oder \"Nächsten Freitag\".",
+        "input_due": "Antworte mit dem Fälligkeitsdatum, auf das die Karte gesetzt werden soll.",
+        "members_updated": "Die Mitgliederzuordnung für \"{{&name}}\" wurde geändert.",
+        "labels_updated": "Die Labels wurden für \"{{&name}}\" geändert.",
+        "move": "Die Karte \"{{&card}}\" wurde zur Liste \"{{&list}}\" verschoben.",
+        "same_list_move": "Diese Karte ist schon in dieser Liste!"
+    },
+    "boards": {
+        "menu": {
+            "remove_desc": "Die Beschreibung entfernen",
+            "desc": "Die Beschreibung ändern",
+            "name": "Den Namen ändern",
+            "invite": "Ändere die Berechtigung um Mitglieder hinzuzufügen oder zu entfernen ({{&value}})",
+            "vote": "Ändere die Abstimmungsberechtigung ({{&value}})",
+            "comment": "Ändere die Kommentarberechtigung ({{&value}})",
+            "sub_off": "Diese Board nicht mehr beobachten",
+            "sub_on": "Dieses Board beobachten",
+            "archive_off": "Das Board wieder öffnen",
+            "archive_on": "Das Board schließen"
+        },
+        "set_vote_perms": "Die Abstimmungsrechte wurden auf {{&value}} gesetzt.",
+        "set_invite_perms": "Die Einladungsberechtigung wurde auf {{&value}} gesetzt.",
+        "set_comment_perms": "Die Kommentarberechtigung wurde auf {{&value}} gesetzt.",
+        "need_admin": "Dafür brauchst du Adminstratorberechtigung auf dem Board!",
+        "removed_desc": "Die Beschreibung für \"{{&name}}\" wurde entfernt.",
+        "input_desc": "Schreibe die neue Boardbeschreibung.",
+        "set_desc": "Die Boardbeschreibung für \"{{&name}}\" wurde gesetzt.",
+        "unarchived": "Das Board \"{{&name}}\" wurde wiederhergestellt.",
+        "archived": "Das Board \"{{&name}}\" wurde archiviert.",
+        "input_name": "Schreibe den neuen Namen des Boards.",
+        "set_name": "Das Board wurde von \"{{&old}}\" zu \"{{&new}}\" umbenannt.",
+        "wywtd": "Wähle, was du mit dem Board machen willst.",
+        "choose": "Schreibe die Nummer des Boards, dass du nutzen willst.",
+        "gone": "Dieses Board existiert nicht mehr. Wechsle mit `{{&cleanPrefix}}switch` zu einem anderen Board!",
+        "switch": "Zu \"{{&name}}\" (`{{&id}}`) gewechselt.",
+        "header": "Benutze `{{&cleanPrefix}}switch <boardID|boardName>` um zwischen Boards zu wechseln.",
+        "none": "Du bist auf keinem Board. Du kannst auf <https://trello.com/> eins erstellen."
+    },
+    "webhook_filters": {
+        "REMOVE_MEMBER_FROM_CARD": "Von Karten entfernte Mitgleider",
+        "REMOVE_MEMBER_FROM_BOARD": "Vom Board entfernte Mitglieder",
+        "REMOVE_LABEL_FROM_CARD": "Von Karten entfernte Labels",
+        "REMOVE_CHECKLIST_FROM_CARD": "Von Karten entfernte Checklisten",
+        "MOVE_LIST_TO_BOARD": "Aus einem anderen Board hierher verschobene Listen",
+        "MOVE_LIST_FROM_BOARD": "In anders Board verschobene Listen",
+        "MOVE_CARD_TO_BOARD": "Aus einem anderen Board hierher verschobene Karten",
+        "MOVE_CARD_FROM_BOARD": "In ein anders Board verschobene Karten",
+        "MAKE_NORMAL_MEMBER_OF_BOARD": "Zu normalen Mitgliedern degradierte Boardmitglieder",
+        "MAKE_ADMIN_OF_BOARD": "Zu Admins beförderte Boardmitglieder",
+        "DELETE_LABEL": "Entfernte Labels",
+        "DELETE_CHECK_ITEM": "Entfernte Checklistengegenstände",
+        "DELETE_CARD": "Entfernte Karten",
+        "DELETE_ATTACHMENT_FROM_CARD": "Entfernte Kartenanhänge",
+        "CREATE_LIST": "Neue Listen",
+        "CREATE_CARD": "Neue Karten",
+        "CREATE_LABEL": "Neue Labels",
+        "COPY_CHECKLIST": "Verdoppelte Checklisten",
+        "COPY_CARD": "Verdoppelte Karten",
+        "CONVERT_TO_CARD_FROM_CHECK_ITEM": "Zu Karten konvertierte Checklistengegenstände",
+        "COMMENT_CARD": "Neue Kommtare zu Karten",
+        "ADD_MEMBER_TO_CARD": "Neue Mitglieder auf Karten",
+        "ADD_MEMBER_TO_BOARD": "Neue Mitglieder auf dem Board",
+        "ADD_LABEL_TO_CARD": "Neue Labels auf Karten",
+        "ADD_CHECKLIST_TO_CARD": "Neue Checklisten",
+        "ADD_ATTACHMENT_TO_CARD": "Neue Anhänge an Karten",
+        "UPDATE_BOARD_PREFS": "Boardeinstellungen geändert",
+        "UPDATE_BOARD_DESC": "Neue Boardbeschreibung",
+        "UPDATE_BOARD_NAME": "Veränderte Boardnamen",
+        "UPDATE_COMMENT": "Veränderte Kommentare",
+        "DELETE_COMMENT": "Gelöschte Kommentare",
+        "CREATE_CHECK_ITEM": "Neue Checklistengegenstände",
+        "VOTE_ON_CARD": "Abstimmungen auf Karten",
+        "UPDATE_CHECK_ITEM_STATE_ON_CARD": "Checklistengegenstände (nicht) abgeschlossen",
+        "UPDATE_LIST_POS": "Veränderte Listenreihenfolge",
+        "UPDATE_LIST_NAME": "Veränderter Listenname",
+        "UPDATE_LABEL_COLOR": "Veränderte Labelfarben",
+        "UPDATE_LABEL_NAME": "Veränderte Labelnamen",
+        "UPDATE_CHECKLIST_POS": "Positionsveränderungen von Checklisten",
+        "UPDATE_CHECKLIST_NAME": "Veränderter Checklistenname",
+        "UPDATE_CHECK_ITEM_POS": "Positionsveränderungen von Checklistengegenständen",
+        "UPDATE_CHECK_ITEM_NAME": "Veränderte Inhalte von Checklistengegenständen",
+        "UPDATE_CARD_CLOSED": "Archivierte/Wiederhegestellte Karten",
+        "UPDATE_CARD_DUE": "Veränderte Fälligkeitsdaten",
+        "UPDATE_CARD_POS": "Andere Position von Karten innerhalb von Listen",
+        "UPDATE_CARD_LIST": "Verschieben von Karten in andere Listen",
+        "UPDATE_CARD_DESC": "Veränderte Kartenbeschreibung",
+        "UPDATE_CARD_NAME": "Veränderter Katenname",
+        "UPDATE_BOARD_CLOSED": "Änderungen am Boardstatus(öffnen/schließen)"
+    },
+    "labels": {
+        "input_name": "Antworte mit dem neuen Namen, zu dem du das Label umbenennen willst.",
+        "set_name": "Label wurde von \"{{&old}}\" zu \"{{&new}}\" umbenannt.",
+        "menu": {
+            "color": "Die Labelfarbe ändern",
+            "name": "Label umbenennen"
+        },
+        "wywtd": "Wähle aus, was du mit diesem Label machen willst.",
+        "choose": "Antworte mit der Nummer des Labels, dass du benutzen willst.",
+        "none": "Dieses Board hat keine Labels."
+    },
+    "attachments": {
+        "menu": {
+            "delete": "Diesen Anahng löschen",
+            "name": "Anhang umbenennen"
+        },
+        "removed": "Der Anhang \"{{&name}}\" wurde gelöscht.",
+        "remove_confirm": "Bist du sicher, dass du \"{{&name}}\" löschen willst?",
+        "input_name": "Antworte mit dem Namen, zu dem du den Anhang umbenennen willst.",
+        "set_name": "Anhang von \"{{&old}}\" zu \"{{&new}}\" umbenannt.",
+        "wywtd": "Wähle aus, was du mit dem Anhang machen willst.",
+        "choose": "Antworte mit der Nummer des Anhangs, den du benutzen willst.",
+        "none": "Diese Karte hat keine Anhänge.",
+        "is_cover": "Als Titelbild der Karte benutzt"
+    }
+}

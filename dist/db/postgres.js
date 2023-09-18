@@ -3,11 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getUser = exports.disconnect = exports.connect = exports.Webhook = exports.client = void 0;
 const tslib_1 = require("tslib");
 const sequelize_1 = tslib_1.__importStar(require("sequelize"));
+const pg = tslib_1.__importStar(require("pg"));
 exports.client = new sequelize_1.Sequelize(process.env.PG_DATABASE, process.env.PG_USER, process.env.PG_PASSWORD, {
     host: process.env.PG_HOST,
     dialect: 'postgres',
     logging: false,
-    define: { timestamps: true }
+    define: { timestamps: true },
+    dialectModule: pg
 });
 class Webhook extends sequelize_1.Model {
 }

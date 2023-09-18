@@ -1,4 +1,5 @@
 import Sequelize, { Model, Sequelize as newSequelize } from 'sequelize';
+import * as pg from 'pg';
 
 export const client = new newSequelize(
   process.env.PG_DATABASE,
@@ -8,7 +9,8 @@ export const client = new newSequelize(
     host: process.env.PG_HOST,
     dialect: 'postgres',
     logging: false,
-    define: { timestamps: true }
+    define: { timestamps: true },
+    dialectModule: pg
   }
 );
 

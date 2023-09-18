@@ -1,0 +1,399 @@
+{
+    "trello": {
+        "add_rem_members": "Dodaj/usuń członków",
+        "last_act": "Ostatnia aktywność",
+        "voted": "Zagłosowano",
+        "due": "z powodu",
+        "voting": "Głosowanie",
+        "starred": "Zagwiazdkowane",
+        "subbed": "Obejrzane",
+        "pinned": "Przypięte",
+        "template": "Jest templatką?",
+        "self_join": "Zezwól członkom zespołu na edycje i dołączenie",
+        "hide_votes": "Schować głosy",
+        "card_covers": "Obrazy okładki karty",
+        "colorblind": "Tryb ślepy na kolory",
+        "locale": "Język (na Trello)",
+        "marketing": "E-maile marketingowe",
+        "summ": "Wyślij streszczenia",
+        "new_comment": "Nowy komentarz",
+        "old_comment": "Stary komentarz",
+        "new_name": "Nowa nazwa",
+        "old_name": "Stara nazwa",
+        "curr_list": "Ta lista",
+        "prev_list": "Poprzednia lista",
+        "new_desc": "Nowy opis",
+        "old_desc": "Stary opis",
+        "archived_lower": "zarchiwizowany",
+        "new_due": "Nowy termin",
+        "one_chklist_name": "Stara nazwa listy zadań",
+        "item_src": "Źródło przedmiotu",
+        "to_board": "Do tablicy",
+        "from_board": "Z tablicy",
+        "products": {
+            "10": "💼 Trello Gold z klasy biznesowej",
+            "37": "⭐ Miesięczne Trello Gold",
+            "38": "🌟 Roczne Trello Gold"
+        },
+        "perm_levels": {
+            "public": "Publiczny",
+            "org": "Widoczność zespołu",
+            "private": "Prywatne"
+        },
+        "invite_perms": {
+            "members": "Wszyscy użytkownicy",
+            "admins": "Admini"
+        },
+        "vote_perms": {
+            "disabled": "Wyłączone",
+            "members": "Wszyscy członkowie",
+            "org": "Członkowie organizaji",
+            "public": "Każdy użytkownik Trello"
+        },
+        "card_aging": "Starzenie się karty",
+        "card_age": {
+            "regular": "Regularny",
+            "pirate": "Pirackie"
+        },
+        "label_color": {
+            "green": "Zielony",
+            "yellow": "Żółty",
+            "red": "Czerwony",
+            "orange": "Pomarańczowy",
+            "lime": "Limonkowy zielony",
+            "purple": "Fioletowy",
+            "sky": "Błękitny",
+            "pink": "Różowy",
+            "blue": "Niebieski",
+            "black": "Czarny",
+            "none": "Bez koloru"
+        },
+        "old_due": "Stary termin",
+        "one_chkitem_name": "Stara pozycja listy kontrolnej Nazwy",
+        "old_v": "Stara wartość",
+        "comment_perms": {
+            "org": "Członkowie organizacji",
+            "public": "Każde użytkownik Trello",
+            "disabled": "Wyłączone",
+            "members": "Wszyscy użytkownicy"
+        },
+        "custom_field": "Konfigurowalne pole",
+        "new_v": "Nowa wartość",
+        "member_type": {
+            "normal": "Normalny",
+            "admin": "Admin"
+        }
+    },
+    "words": {
+        "cooldown": "Przerwa między",
+        "in": "w",
+        "in_lower": "w",
+        "visibility": "Widoczność",
+        "bio": "Biografia",
+        "flag": {
+            "many": "Flagi",
+            "one": "Flaga"
+        },
+        "channel": {
+            "many": "Kanały",
+            "one": "Kanał"
+        },
+        "name": {
+            "many": "Imiona",
+            "one": "Imie"
+        },
+        "webhook": {
+            "many": "Webhooki",
+            "one": "Webhook"
+        },
+        "prefix": {
+            "many": "Prefiksy",
+            "one": "Prefiks"
+        },
+        "vote_lower": {
+            "many": "głosy",
+            "one": "głos"
+        },
+        "comment": {
+            "many": "Komentarze",
+            "one": "Komentarz"
+        },
+        "member": {
+            "many": "Użytkownicy",
+            "one": "Użytkownik"
+        },
+        "product": {
+            "many": "Produkty",
+            "one": "Produkt"
+        },
+        "user_pref": {
+            "many": "Preferencje użytkownika",
+            "one": "Preferencje użytkownika"
+        },
+        "pref": {
+            "many": "Preferencje",
+            "one": "Preferencje"
+        },
+        "orgs": {
+            "many": "Organizacje",
+            "one": "Organizacja"
+        },
+        "arch_board": {
+            "many": "Zarchiwizowane tablice",
+            "one": "Zarchiwizowana tablica"
+        },
+        "arch_card": {
+            "many": "Zarchiwizowane karty",
+            "one": "Zarchiwizowana karta"
+        },
+        "arch_list": {
+            "many": "Zarchiwizowane listy",
+            "one": "Zarchiwizowana lista"
+        },
+        "sticker": {
+            "many": "Naklejki",
+            "one": "Naklejka"
+        },
+        "subcmd": {
+            "many": "Pod komendy",
+            "one": "Pod komenda"
+        },
+        "cmd": {
+            "many": "Komendy",
+            "one": "Komenda"
+        },
+        "attachment": {
+            "many": "Załączniki",
+            "one": "Załącznik"
+        },
+        "checklist_item": {
+            "many": "Przedmioty listy kontrolnej",
+            "one": "Przedmiot listy kontrolnej"
+        },
+        "checklist": {
+            "many": "Listy kontrolne",
+            "one": "Lista kontrolna"
+        },
+        "member_type": {
+            "many": "Typy użytkowników",
+            "one": "Typ użytkownika"
+        },
+        "opt": {
+            "many": "Opcje",
+            "one": "Opcja"
+        },
+        "card": {
+            "many": "Karty",
+            "one": "Karta"
+        },
+        "label": {
+            "many": "Oznaczenia",
+            "one": "Oznaczenie"
+        },
+        "link": {
+            "many": "Linki",
+            "one": "Link"
+        },
+        "list": {
+            "many": "Listy",
+            "one": "Lista"
+        },
+        "item": {
+            "many": "Przedmioty",
+            "one": "Przedmiot"
+        },
+        "page": {
+            "many": "Strony",
+            "one": "Strona"
+        },
+        "board": {
+            "many": "Tablice",
+            "one": "Tablica"
+        },
+        "count": {
+            "many": "Liczby",
+            "one": "Liczba"
+        },
+        "short_link": {
+            "many": "Krótkie linki",
+            "one": "Krótki link"
+        },
+        "bg_img": "Zdjęcie w tle",
+        "info": "Informacja",
+        "initials": "Inicjały",
+        "id": "ID",
+        "donate": "Wspomóż",
+        "trello_board": {
+            "many": "Tablice Trello",
+            "one": "Tablica Trello"
+        },
+        "website": {
+            "many": "Strony",
+            "one": "Strona"
+        },
+        "server": {
+            "many": "Serwery",
+            "one": "Serwer"
+        },
+        "mem_usage": "Użycie pamięci",
+        "note": "Notatka",
+        "uptime": "Czas online",
+        "version": "Wersja",
+        "alias": {
+            "many": "Aliasy",
+            "one": "Alias"
+        },
+        "locale": "Język",
+        "usage": "Użycie",
+        "active": "Aktywny"
+    },
+    "locale": {
+        "no_guild": "Komenda musi być użyta na serwerze!",
+        "server_unset": "Nie ustawiono języka serwera.",
+        "user_unset": "Nie ustawiono języka użytkownika.",
+        "server_set": "Ustawiono język serwerowy na **{{&name}}**.",
+        "user_set": "Ustawiono język użytkownika na **{{&name}}**.",
+        "header": "`{{&prefix}}locale setuser [język]` lub `{{&prefix}}locale setserver [język]` aby ustawić język.",
+        "server_locale": "Język serwerowy: {{&locale}}",
+        "user_locale": "Język użytkownika: {{&locale}}",
+        "choose": "Wpisz numer języka, który chcesz ustawić.",
+        "unset_l": "Nie ustawiony język",
+        "unset": "Nie ustawione",
+        "start": "Dostępne tłumaczenia"
+    },
+    "shardinfo": {
+        "line": "**`{{id}}:`** {{status}}, {{ms}} ms, {{guilds}} gildii",
+        "title": "Informacje o shardach {{&username}}"
+    },
+    "ping": {
+        "rest": "REST: {{ms}} ms",
+        "ws": "WS: {{ms}} ms",
+        "message": "Pong!"
+    },
+    "info": {
+        "faux": "Bot używa zmodyfikowanej wersji [Faux](https://github.com/Snazzah/Faux).",
+        "title": "Informacje o {{&username}}"
+    },
+    "help": {
+        "footer": "`{{&cleanPrefix}}help [command]` po więcej informacji.",
+        "header": "{{&username}} (Używamy zmodyfikowanej wersji [Faux](https://github.com/Snazzah/Faux) Stworzonej przez Snazzah)\nSerwer pomocy: {{&link}}",
+        "not_found": "Komenda `{{&command}}` nie została znaleziona."
+    },
+    "links": {
+        "serverinvite": {
+            "fail": "Właściciel nie podał linku do serwera pomocy!",
+            "start": "Dołącz na serwer pomocy bota, którymś z tych linków!"
+        },
+        "invite": {
+            "fail": "Właściciel bota nie podał linku zaproszenia!",
+            "start": "Tutaj jest link, żeby zaprosić mnie na inne serwery!"
+        },
+        "github": "Tutaj jest link do mojego kodu źródłowego:",
+        "donate": {
+            "fail": "Właściciel bota nie podał żadnego linku dotacji!",
+            "start": "Wspomóż rozwój poprzez dotacje!"
+        },
+        "auth": {
+            "fail": "Właściciel bota, nie dodał linku autoryzacji!",
+            "start": "Autoryzuj dostęp do twojego konta Trello z Discordem tutaj:"
+        }
+    },
+    "responses": {
+        "eval": "Zajęło to {{ms}} ms.",
+        "hangman": "Nie jestem botem od gier.",
+        "restart": "Restartowanie shard'a…"
+    },
+    "vote": {
+        "rate": "ocenić",
+        "review": "przejrzeć",
+        "title": "Możesz głosować, obejrzeć, ocenić {{&username}} on these sites:"
+    },
+    "setmaxwebhooks": {
+        "invalid": "Niepoprawne ID!",
+        "set": "Ustawiono maksymalny limit webhook'ów dla serwera {{serverID}} na {{value}}."
+    },
+    "reloadwebserver": {
+        "done": "Serwer WWW został zrestartowany.",
+        "reloading": "Restartuje serwer WWW…",
+        "no": "Nie można przeładować serwera WWW!"
+    },
+    "reloadone": {
+        "done": "Przeładowano {{&commands}}.",
+        "file": "Plik, który miał określone polecenie, już nie istnieje!",
+        "invalid": "Nie poprawna komenda!"
+    },
+    "reloadlocale": {
+        "done": "Przeładowano języki.",
+        "reloading": "Przeładowywanie języków…"
+    },
+    "reload": {
+        "done": "Przeładowano komendy.",
+        "reloading": "Przeładowywanie komend…"
+    },
+    "_": {
+        "emoji": "pl",
+        "name": "Polski"
+    },
+    "webhook_cmd": {
+        "model_filter": "Tryb filtrowania listy/karty",
+        "whitelist": "Biała lista",
+        "blacklist": "Czarna lista",
+        "filtered_list": {
+            "one": "Przefiltrowana lista",
+            "many": "Przefiltrowane listy"
+        },
+        "filtered_card": {
+            "one": "Przefiltrowana karta",
+            "many": "Przefiltrowane karty"
+        },
+        "allowed_actions": {
+            "one": "Dozwolone akcje",
+            "many": "Dozwolone akcje"
+        },
+        "owned_by": "Objęte przez",
+        "try_repair": "Możesz naprawić ten błąd wpisując `{{&cleanPrefix}}editwebhook {{&id}} repair`",
+        "header": "Użyj `{{&cleanPrefix}}webhook <webhookID>`aby zobaczyć webhooka i `{{&cleanPrefix}}editwebhook <webhookID>` aby go edytować.",
+        "none": "Na tym serwerze nie ma webhooków podpiętych do Trello.",
+        "discord_webhook": "Webhook Discorda",
+        "trello_webhook": "Webhook Trello",
+        "dwh_missing": "Discord Webhook podpięty do tego webhooka nie istnieje!",
+        "twh_missing": "Brak użytkownika który stworzył webhooka, to spowoduje zakończenie wysyłania wiadomości przez webhooka!",
+        "edit_menu": {
+            "off": "Dezaktywuj",
+            "on": "Aktywuj",
+            "filter": "Edytuj filtry",
+            "delete": "Usuń webhook",
+            "repair": "Napraw webhook",
+            "locale": "Zmień język",
+            "lists": "Zmien filtry listy",
+            "wlist": "Zmień filtr na białą liste",
+            "blist": "Zmień filtr na czarną liste",
+            "cards": "Zmień przefiltrowane karty"
+        },
+        "invalid": "Niepoprawne ID webhooka!",
+        "not_found": "Ten webhook nie istnieje!",
+        "dwh": {
+            "one": "Discord Webhook",
+            "many": "Webhooki Discorda"
+        },
+        "add_header": "Jak chcesz aby webhook został zainstalowany?",
+        "menu": {
+            "add": "Dodaj webhooka",
+            "exist": "Użyj istniejącego webhooka",
+            "link": "Użyj linku webhooka"
+        },
+        "choose_channel": "Wybierz kanał gdzie mam wysyłać webhook'a.",
+        "created": "Stworzono webhook dla \"{{&name}}\".",
+        "no_dwh": "Nie masz webhooków do podpięcia!",
+        "choose_existwh": "Wybierz którego webhooka chcesz użyć.",
+        "input_link": "Wklej link webhooka, którego chcesz użyć.",
+        "no_link": "Nie moge znaleźć linku w argumencie!",
+        "no_server_link": "Ten webhook nie jest na tym serwerze!",
+        "wywtd": "Wybierz co chcesz zrobić z tym webhookiem.",
+        "wh_off": "Webhook został wyłączony.",
+        "no_channels": "Nie znaleziono kanałów, które pozwalałyby mi zarządzać webhookami.",
+        "couldnt_create": "Nie mogłem utworzyć webhooka! Jest to prawdopodobnie spowodowane nagłą zmianą uprawnień w procesie!",
+        "create_confirm": "Webhook dla tablicy Trello \"{{&name}}\" zaczyna pracę! Akcje zaczną się pokazywac niedługo…",
+        "wh_on": "Webhook został włączony."
+    }
+}
