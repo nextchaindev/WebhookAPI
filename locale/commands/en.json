@@ -1,0 +1,367 @@
+{
+  "_": {
+    "name": "English",
+    "emoji": "us"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "link": "Link",
+    "url": "URL",
+    "due": "Due",
+    "cancel": "Cancel",
+    "done": "Done",
+    "none": "None",
+    "page": "Page",
+    "list": "List",
+    "lists": "Lists",
+    "labels": "Labels",
+    "votes": "Votes",
+    "name": "Name",
+    "description": "Description",
+    "empty_input": "Type something…",
+    "attachment": "Attachment",
+    "attachments": "Attachments",
+    "checklists": "Checklists",
+    "stickers": "Stickers",
+    "members": "Members",
+    "org": "Organization",
+    "visibility": "Visibility",
+    "info": "Information",
+    "bg_img": "Background Image",
+    "last_activity": "Last Activity",
+    "cover_source": "Cover Source",
+    "more": "+ {{count, number}} more…",
+    "board_count_one": "{{count, number}} board",
+    "board_count_other": "{{count, number}} boards",
+    "org_count_one": "{{count, number}} organization",
+    "org_count_other": "{{count, number}} organizations",
+    "list_count_one": "{{count, number}} list",
+    "list_count_other": "{{count, number}} lists",
+    "card_count_one": "{{count, number}} card",
+    "card_count_other": "{{count, number}} cards",
+    "label_color": {
+      "green": "Green",
+      "yellow": "Yellow",
+      "red": "Red",
+      "orange": "Orange",
+      "lime": "Lime Green",
+      "purple": "Purple",
+      "blue": "Blue",
+      "sky": "Sky Blue",
+      "pink": "Pink",
+      "black": "Black",
+      "green_light": "Light Green",
+      "yellow_light": "Light Yellow",
+      "red_light": "Light Red",
+      "orange_light": "Light Orange",
+      "lime_light": "Light Lime Green",
+      "purple_light": "Light Purple",
+      "blue_light": "Light Blue",
+      "sky_light": "Light Sky Blue",
+      "pink_light": "Light Pink",
+      "black_light": "Light Black",
+      "green_dark": "Dark Green",
+      "yellow_dark": "Dark Yellow",
+      "red_dark": "Dark Red",
+      "orange_dark": "Dark Orange",
+      "lime_dark": "Dark Lime Green",
+      "purple_dark": "Dark Purple",
+      "blue_dark": "Dark Blue",
+      "sky_dark": "Dark Sky Blue",
+      "pink_dark": "Dark Pink",
+      "black_dark": "Dark Black",
+      "none": "No Color"
+    },
+    "perm_levels": {
+        "public": "Public",
+        "org": "Team Visible",
+        "private": "Private"
+    }
+  },
+  "query": {
+    "not_found_card": "Couldn't find that card.",
+    "not_found_list": "Couldn't find that list.",
+    "not_found_label": "Couldn't find that label.",
+    "not_found_webhook": "Couldn't find that webhook.",
+    "not_found_board": "Couldn't find that board, try selecting a board first.",
+    "no_list_label": "No labes to list.",
+    "no_list_board": "No boards to list.",
+    "no_list_list": "No lists to list.",
+    "no_list_card": "No cards to list.",
+    "no_list_webhook": "No webhooks to list."
+  },
+  "interactions": {
+    "no_server": "This command can only be used in a server.",
+    "no_admin_perms": "This command requires the \"Manage Server\" permission.",
+    "no_trello_perms": "This command requires you to have the Trello management role or have the \"Manage Server\" permission.",
+    "wrong_user": "❌ Only the person who executed this command can do this.",
+    "delete_wrong_user": "❌ Only the person who executed this command can delete the response.",
+    "prompt_wrong_user": "❌ Only the person who executed this command can interact with this prompt.",
+    "prompt_expired": "This prompt has expired.",
+    "prompt_no_function": "🔥 This type of prompt does not have a function. Contact support if you see this.",
+    "prompt_no_action_id": "🔥 No action ID was provided. Contact support if you see this.",
+    "prompt_no_action_id_or_type": "🔥 No action ID was provided. Contact support if you see this.",
+    "prompt_action_expired": "❌ The action to this prompt has expired, try again later.",
+    "prompt_action_invalid_type": "🔥 The action to this prompt has an invalid type. Contact support if you see this.",
+    "prompt_action_requires_data": "🔥 The action to this component requires data. Contact support if you see this.",
+    "modal_unknown": "🔥 This modad never linked anywhere. Contact support if you see this.",
+    "prompt_select_item": "Select an item below…",
+    "items_selected_one": "{{count, number}} item selected",
+    "items_selected_other": "{{count, number}} items selected",
+    "visit_card": "View Card on Trello",
+    "visit_board": "View Board on Trello",
+    "dismiss": "You can dismiss this message.",
+    "bad_subcommand": "Invalid subcommand. Contact support if you see this.",
+    "error": "An error occurred while handling this interaction."
+  },
+  "auth": {
+    "content": "You can authenticate with Trello using the button below:",
+    "no_auth": "You must authenticate your Trello account to use this command.",
+    "expired": "Your authentication token has expired! Please re-authenticate to continue.",
+    "button": "Authenticate with Trello"
+  },
+  "list": {
+    "title": "Cards in \"{{list}}\" ({{cards, number}})",
+    "none": "No cards are in this list."
+  },
+  "label": {
+    "title": "Cards in \"{{label}}\" ({{cards, number}})",
+    "none": "No cards are assigned this label."
+  },
+  "cleardata": {
+    "no_data": "No user data was found.",
+    "confirm": "Are you sure you want to remove **ALL** of your user data?\n\n• Your locale settings will be removed.\n• Your authorization credentials will be removed.\n• Your Trello token will be invalidated.\n• Any webhooks you created will no longer work and will be required to be repaired.",
+    "done": "Your user data has been cleared."
+  },
+  "clearauth": {
+    "no_auth": "No authentication data was found.",
+    "confirm": "Are you sure you want to remove your authentication data?\n\n• Your Trello token will be invalidated.\n• Any webhooks you created will no longer work and will be required to be repaired.",
+    "done": "Your authorization has been cleared."
+  },
+  "watchboard": {
+    "watched": "Started watching the **{{board}}** board.",
+    "unwatched": "Stopped watching the **{{board}}** board."
+  },
+  "watchlist": {
+    "watched": "Started watching the **{{list}}** list.",
+    "unwatched": "Stopped watching the **{{list}}** list."
+  },
+  "watchcard": {
+    "watched": "Started watching the **{{card}}** card.",
+    "unwatched": "Stopped watching the **{{card}}** card."
+  },
+  "addlabel": {
+    "done": "Created new **{{label}}** label.",
+    "limited": "You have too many labels! Try editing other labels or deleting unused labels."
+  },
+  "deletelabel": {
+    "confirm": "Are you sure you want to delete the **{{label}}** label?",
+    "done": "Successfully deleted the label."
+  },
+  "addlist": {
+    "done": "Created new **{{list}}** list.",
+    "limited": "You have too many lists! Try editing other archived lists."
+  },
+  "edit": {
+    "need_admin": "You need administrator permissions on the board to do this!",
+    "no_edit": "No edits were made.",
+    "header_card": "Made the following changes to the **{{name}}** card:",
+    "header_list": "Made the following changes to the **{{name}}** list:",
+    "header_label": "Made the following changes to the **{{name}}** label:",
+    "header_board": "Made the following changes to the **{{name}}** board:",
+    "labels_title": "Select labels for \"{{card}}\"",
+    "labels_updated": "Updated the card's labels.",
+    "labels_placeholder": "Select labels to add to this card…",
+    "members_title": "Select members for \"{{card}}\"",
+    "members_updated": "Updated the card's members.",
+    "members_placeholder": "Select members to add to this card…",
+    "move": "Moved card **{{card}}** to list **{{list}}**.",
+    "rename": "- Renamed to **{{name}}**",
+    "recolor": "- Changed color to **{{color}}**",
+    "archive": "- Archived",
+    "unarchive": "- Removed from archive",
+    "description": "- Edited the description",
+    "remove_description": "- Removed the description"
+  },
+  "addattachment": {
+    "no_url": "You need to provide either an attachment or a URL!",
+    "done": "Added an attachment to the **{{card}}** card.",
+    "limited": "You have too many attachments! Try deleting unnessesary attachments."
+  },
+  "addcard": {
+    "modal_title": "Add card to list",
+    "done": "Created new **{{card}}** card.",
+    "limited": "You have too many cards! Try deleting unused cards."
+  },
+  "deletecard": {
+    "confirm": "Are you sure you want to delete the **{{card}}** card?",
+    "done": "Successfully deleted the card."
+  },
+  "comment": {
+    "commented": "Commented on the **{{card}}** card."
+  },
+  "star": {
+    "star": "Starred the **{{board}}** board.",
+    "unstar": "Unstarred the **{{board}}** board."
+  },
+  "switch": {
+    "success": "Switched to the **{{board}}** board.",
+    "not_found": "Couldn't find that board.",
+    "no_board_command": "Select a board to switch to before using this command!"
+  },
+  "board": {
+    "is_archived": "This board is archived.",
+    "footer": "This board has $t(common.card_count, {\"count\": {{cards}} }) and $t(common.list_count, {\"count\": {{lists}} })."
+  },
+  "card": {
+    "is_archived": "This card is archived.",
+    "vote_include": "(including you)"
+  },
+  "cards": {
+    "list_all": "All Cards",
+    "list_archived": "Archived Cards",
+    "list_open": "Open Cards",
+    "list_watched": "Cards You've Watched",
+    "list_overdue": "Overdue Cards",
+    "list_labels": "Cards with Any Labels",
+    "list_no_labels": "Cards with No Labels"
+  },
+  "lists": {
+    "list_all": "All Lists",
+    "list_archived": "Archived Lists",
+    "list_open": "Open Lists",
+    "list_watched": "Lists You've Watched"
+  },
+  "boards": {
+    "list_all": "All Boards",
+    "list_archived": "Archived Boards",
+    "list_open": "Open Boards",
+    "list_watched": "Boards You've Watched",
+    "list_starred": "Boards You've Starred"
+  },
+  "labels": {
+    "list_all": "All Labels",
+    "list_cards": "Labels with Cards"
+  },
+  "me": {
+    "footer": "You are in $t(common.board_count, {\"count\": {{boards}} }) and $t(common.org_count, {\"count\": {{orgs}} })."
+  },
+  "user_settings": {
+    "locale": "Your locale is set to **{{name}}**.",
+    "invalid_locale": "That locale was invalid!",
+    "set_locale": "Set your locale to **{{name}}**."
+  },
+  "server_settings": {
+    "no_locale_set": "This server has not set a locale.",
+    "locale": "This server's locale is set to **{{name}}**.",
+    "invalid_locale": "That locale was invalid!",
+    "set_locale": "Set your locale to **{{name}}**.",
+    "role": "The Trello management role is set to **{{role}}**.",
+    "no_role_set": "The Trello management role has not been set in this server.",
+    "set_role": "Set the Trello management role to **{{role}}**."
+  },
+  "bot": {
+    "info_content": "**Taco** is a Discord bot that allows users to manage their Trello boards in Discord.",
+    "donate_content": "Support the development of Taco by becoming a Patron! You get perks like extra webhooks and Taco+!",
+    "donate_button": "Support via Patreon",
+    "github_content": "You can view the open-source GitHub repository of this bot by clicking the button below!",
+    "github_button": "View Source on GitHub",
+    "invite_content": "You can invite me to other servers by clicking the button below!",
+    "invite_button": "Invite Taco",
+    "support_content": "You can join the support server from this invite: {{invite}}"
+  },
+  "webhook": {
+    "unnamed": "Unnamed Webhook",
+    "new_wh_name": "Board Updates by Taco",
+    "list_all": "All Webhooks",
+    "list_active": "Active Webhooks",
+    "list_inactive": "Inactive Webhooks",
+    "list_unnamed": "Unnamed Webhooks",
+    "dwh_fail": "Couldn't fetch Discord webhooks! Make sure I have the `Manage Webhooks` permission.",
+    "dwh_fail_create": "Couldn't create a Discord webhook! Make sure I have the `Manage Webhooks` permission in the selected channel.",
+    "filter_policy": "Filter Policy",
+    "style": "Style",
+    "id": "ID",
+    "active": "Active",
+    "locale": "Locale",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All",
+    "filtering": "Filtering",
+    "whitelist": "Whitelist",
+    "blacklist": "Blacklist",
+    "not_set": "Not Set",
+    "wh_owner": "Webhook Owner",
+    "dwh": "Discord Webhook",
+    "dwh_creator": "Discord Webhook Creator",
+    "dwh_channel": "Posting to Channel",
+    "filters_one": "{{count, number}} filtered action shown",
+    "filters_other": "{{count, number}} filtered actions shown",
+    "filter_card_one": "{{count, number}} card filtered",
+    "filter_card_other": "{{count, number}} cards filtered",
+    "filter_list_one": "{{count, number}} list filtered",
+    "filter_list_other": "{{count, number}} lists filtered",
+    "repair_header": "This webhook has the following issues:",
+    "trello_member_missing": "> • Couldn't find the user who created the webhook!",
+    "discord_webhook_missing": "> • Couldn't find the connected Discord webhook!",
+    "repair_footer": "You can fix these issues with `/webhook repair`",
+    "delete_confirm": "Are you sure you want to delete the **{{webhook}}** webhook?\nNote: Deleting a webhook will **not** delete the Discord webhook.",
+    "delete_done": "Successfully deleted the webhook.",
+    "board_unauthorized": "You don't have permission to view this board!",
+    "board_invalid": "This board does not exist!",
+    "max": "You have reached your maximum webhooks for this server! You can increase this limit by becoming a patron!",
+    "create_new": "Create a new webhook",
+    "select_webhook": "Select a Discord webhook to use, or choose to create a new one.",
+    "select_webhook_max": "There are too many webhooks on this channel! Choose an existing one to use.",
+    "select_webhook_placeholder": "Select a webhook to use…",
+    "created_by": "Created by {{user}}",
+    "no_dwh_available": "Multiple other applications have too many webhooks in this channel. Consider removing Discord webhooks in this channel you no longer use.",
+    "wh_expire": "This webhook is unavailable since it exceeds your current webhook limit! You can increase this limit by becoming a patron!",
+    "add_done": "Created a webhook for **{{board}}**.",
+    "add_wh_title": "New beginnings!",
+    "add_wh_content": "This webhook for the Trello board **{{name}}** has started! Events should be showing up shortly…",
+    "invalid_locale": "That locale was invalid!",
+    "set_locale": "Set your webhook's locale to **{{name}}**.",
+    "set_name": "Set the webhook's name to **{{name}}**.",
+    "set_style": "Set the webhook's display style to **{{style}}**.",
+    "set_filter_policy": "Set the webhook's filter policy to **{{policy}}**.",
+    "invalid_style": "That display style was invalid!",
+    "already_active": "This webhook is already active!",
+    "already_inactive": "This webhook is already inactive!",
+    "set_active": "Activated the webhook. Events will display from the Discord webhook.",
+    "set_inactive": "Deactivated the webhook. Events will no longer display from the Discord webhook.",
+    "filters_title": "Select filters for \"{{webhook}}\"",
+    "filters_updated": "Updated the webhook's filters.",
+    "filters_placeholder": "Select filters to use in this webhook…",
+    "view_group_placeholder": "Select a filter group to use…",
+    "cards_title": "Select filtered cards for \"{{webhook}}\"",
+    "cards_updated": "Updated the webhook's filtered cards.",
+    "cards_placeholder": "Select the cards to filter in this webhook…",
+    "lists_title": "Select filtered lists for \"{{webhook}}\"",
+    "lists_updated": "Updated the webhook's filtered lists.",
+    "lists_placeholder": "Select the lists to filter in this webhook…",
+    "twh_repair_failed": "Failed to repair the internal webhook! Make sure you have access to the board on your Trello account!",
+    "repair_done": "Any issues with the webhook have been repaired.",
+    "dwh_fail_no_channel": "Couldn't recreate a Discord webhook, make sure there is a channel that does not have webhooks from other applications!",
+    "select_channel": "Seems like the Discord webhook for this webhook is missing. Select a Discord channel to post events to.",
+    "select_channel_placeholder": "Select a channel to use…",
+    "repair_wh_title": "And, we're back!",
+    "repair_wh_content": "The webhook **{{name}}** has been repaired! Events should be showing up again shortly…",
+    "choose_lists": "Choose which lists will be filtered. Choosing no lists will disable list filtering.",
+    "choose_cards": "Choose which cards will be filtered. Choosing no cards will disable card filtering.",
+    "styles": {
+      "default": {
+        "name": "Default",
+        "description": "Regular messages, showing as much information as possible"
+      },
+      "small": {
+        "name": "Small",
+        "description": "Small version of default webhooks, only showing the descriptive title"
+      },
+      "compact": {
+        "name": "Compact",
+        "description": "Stacks multiple events into one embed, much like GitHub webhook commits"
+      }
+    }
+  }
+}
