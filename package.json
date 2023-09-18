@@ -13,7 +13,7 @@
   "license": "MIT",
   "scripts": {
     "start": "cd dist && node index.js",
-    "build": "tsc",
+    "build": "npm install && tsc",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "init": "yarn && rimraf dist && tsc && devScript --copyOnly",
