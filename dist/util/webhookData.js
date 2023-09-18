@@ -263,11 +263,11 @@ class WebhookData {
             }
         });
     }
-    async _send(embeds, attempt = 1) {
+    async _send(embeds, attempt = 5) {
         try {
             console.debug('Discord webhook', JSON.stringify(embeds));
             await (0, request_1.request)('POST', `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`, {
-                embeds: embeds
+                embeds
             });
         }
         catch (e) {

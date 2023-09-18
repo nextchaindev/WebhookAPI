@@ -434,14 +434,14 @@ export default class WebhookData {
     );
   }
 
-  private async _send(embeds: any[], attempt = 1) {
+  private async _send(embeds: any[], attempt = 5) {
     try {
       console.debug('Discord webhook', JSON.stringify(embeds));
       await request(
         'POST',
         `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`,
         {
-          embeds: embeds
+          embeds
         }
       );
     } catch (e) {

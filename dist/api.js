@@ -48,7 +48,7 @@ async function start() {
     });
     const port = parseInt(process.env.API_PORT, 10) || 3000;
     const host = process.env.API_HOST || '127.0.0.1';
-    await exports.server.listen();
+    await exports.server.listen({ port, host });
     logger_1.logger.info(`Running webhook on port ${port}, env: ${process.env.NODE_ENV || 'development'}`);
     if (process.send)
         process.send('ready');

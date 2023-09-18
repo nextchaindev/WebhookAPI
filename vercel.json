@@ -3,7 +3,7 @@
     {
       "src": "dist/index.js",
       "use": "@vercel/node",
-      "config": { "includeFiles": ["dist/**", "../locale/**"] }
+      "config": { "includeFiles": ["dist/**", "locale/**"] }
     }
   ],
   "routes": [
