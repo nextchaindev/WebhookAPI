@@ -14,12 +14,20 @@
   "scripts": {
     "start": "cd dist && node index.js",
     "build": "yarn build:vercel",
-    "build:vercel": "rimraf dist && tsc && devScript --copyOnly",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "init": "yarn && rimraf dist && tsc && devScript --copyOnly",
-    "dev": "devScript"
+    "dev": "devScript",
+    "start:vercel": "nodemon src/index.ts",
+    "build:vercel": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist"
   },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ],
   "dependencies": {
     "@fastify/helmet": "10.1.1",
     "@influxdata/influxdb-client": "1.33.2",
@@ -52,7 +60,8 @@
     "eslint-config-snazzah": "1.2.1",
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
-    "rimraf": "5.0.1",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^5.0.1",
     "ts-devscript": "3.0.7",
     "tslib": "2.6.1",
     "typescript": "5.1.6"
