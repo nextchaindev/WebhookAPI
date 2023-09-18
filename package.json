@@ -15,8 +15,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "cd dist && node index.js",
-    "build": "npm install && tsc",
+    "start": "node dist/index.js",
+    "build": "yarn install && tsc",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "init": "yarn && rimraf dist && tsc && devScript --copyOnly",
