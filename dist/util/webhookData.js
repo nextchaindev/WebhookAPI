@@ -197,7 +197,7 @@ class WebhookData {
                 timestamp: this.action.date,
                 footer: {
                     icon_url: 'https://tacobot.app/logo_happy.png',
-                    text: 'tacobot.app'
+                    text: 'nextchain.kr'
                 }
             },
             small: {
@@ -216,7 +216,7 @@ class WebhookData {
                 timestamp: this.action.date,
                 footer: {
                     icon_url: 'https://tacobot.app/logo_happy.png',
-                    text: 'tacobot.app'
+                    text: 'nextchain.kr'
                 }
             },
             compact: {
@@ -229,7 +229,7 @@ class WebhookData {
                 timestamp: this.action.date,
                 footer: {
                     icon_url: 'https://tacobot.app/logo_happy.png',
-                    text: 'tacobot.app'
+                    text: 'nextchain.kr'
                 }
             }
         };
