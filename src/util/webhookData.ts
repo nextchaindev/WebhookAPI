@@ -441,7 +441,8 @@ export default class WebhookData {
         'POST',
         `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`,
         {
-          embeds
+          embeds,
+          avatar_url: process.env.COMPANY_LOGO_URL
         }
       );
     } catch (e) {

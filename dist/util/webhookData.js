@@ -267,7 +267,8 @@ class WebhookData {
         try {
             console.debug('Discord webhook', JSON.stringify(embeds));
             await (0, request_1.request)('POST', `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`, {
-                embeds
+                embeds,
+                avatar_url: process.env.COMPANY_LOGO_URL
             });
         }
         catch (e) {
