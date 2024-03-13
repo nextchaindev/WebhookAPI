@@ -414,35 +414,35 @@ export default class WebhookData {
       });
       return;
     }
-    // onWebhookSend(this.webhook.webhookID);
-    // logger.info(
-    //   'Posting webhook %s (guild=%s, time=%d)',
-    //   this.webhook.webhookID,
-    //   this.webhook.guildID,
-    //   Date.now()
-    // );
-
-    // return this._send([EMBED_DEFAULTS.default]);
-
-    return createTemporaryBatcher(
+    onWebhookSend(this.webhook.webhookID);
+    logger.info(
+      'Posting webhook %s (guild=%s, time=%d)',
       this.webhook.webhookID,
-      lodash.defaultsDeep(embedStyles[this.webhook.style], EMBED_DEFAULTS[this.webhook.style]),
-      {
-        maxTime: 1000,
-        maxSize: 10,
-        onBatch: (embeds) => {
-          onWebhookSend(this.webhook.webhookID);
-          logger.info(
-            'Posting webhook %s (guild=%s, time=%d)',
-            this.webhook.webhookID,
-            this.webhook.guildID,
-            Date.now()
-          );
-
-          return this._send(embeds);
-        }
-      }
+      this.webhook.guildID,
+      Date.now()
     );
+
+    return this._send([EMBED_DEFAULTS.default]);
+
+    // return createTemporaryBatcher(
+    //   this.webhook.webhookID,
+    //   lodash.defaultsDeep(embedStyles[this.webhook.style], EMBED_DEFAULTS[this.webhook.style]),
+    //   {
+    //     maxTime: 1000,
+    //     maxSize: 10,
+    //     onBatch: (embeds) => {
+    //       onWebhookSend(this.webhook.webhookID);
+    //       logger.info(
+    //         'Posting webhook %s (guild=%s, time=%d)',
+    //         this.webhook.webhookID,
+    //         this.webhook.guildID,
+    //         Date.now()
+    //       );
+
+    //       return this._send(embeds);
+    //     }
+    //   }
+    // );
   }
 
   private async requestAxios(method: string, url: string, body?: any) {
@@ -462,7 +462,7 @@ export default class WebhookData {
   private async _send(embeds: any[], attempt = 5) {
     try {
       console.debug('Discord webhook', JSON.stringify(embeds));
-      const response = await this.requestAxios(
+      await request(
         'POST',
         `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`,
         {
@@ -470,14 +470,6 @@ export default class WebhookData {
           avatar_url: process.env.COMPANY_LOGO_URL
         }
       );
-      if (response.status !== 429) {
-        logger.log("Multiple requests to Discord's API", response.status, response.headers);
-        const waitTime = response.data.retry_after;
-        logger.warn(`Discord rate limited, waiting ${waitTime}ms`);
-        await new Promise((resolve) => setTimeout(resolve, waitTime));
-        return this._send(embeds, attempt);
-      }
-      logger.info('Discord webhook response', response);
     } catch (e) {
       if (e.name.startsWith('DiscordRESTError')) {
         if (e.code === 10015) {
