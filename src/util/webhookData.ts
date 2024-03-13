@@ -422,27 +422,27 @@ export default class WebhookData {
       Date.now()
     );
 
-    // return this._send([EMBED_DEFAULTS.default]);
+    return this._send([EMBED_DEFAULTS.small]);
 
-    return createTemporaryBatcher(
-      this.webhook.webhookID,
-      lodash.defaultsDeep(embedStyles[this.webhook.style], EMBED_DEFAULTS[this.webhook.style]),
-      {
-        maxTime: 1000,
-        maxSize: 10,
-        onBatch: (embeds) => {
-          onWebhookSend(this.webhook.webhookID);
-          logger.info(
-            'Posting webhook %s (guild=%s, time=%d)',
-            this.webhook.webhookID,
-            this.webhook.guildID,
-            Date.now()
-          );
+    // return createTemporaryBatcher(
+    //   this.webhook.webhookID,
+    //   lodash.defaultsDeep(embedStyles[this.webhook.style], EMBED_DEFAULTS[this.webhook.style]),
+    //   {
+    //     maxTime: 1000,
+    //     maxSize: 10,
+    //     onBatch: (embeds) => {
+    //       onWebhookSend(this.webhook.webhookID);
+    //       logger.info(
+    //         'Posting webhook %s (guild=%s, time=%d)',
+    //         this.webhook.webhookID,
+    //         this.webhook.guildID,
+    //         Date.now()
+    //       );
 
-          return this._send(embeds);
-        }
-      }
-    );
+    //       return this._send(embeds);
+    //     }
+    //   }
+    // );
   }
 
   private async requestAxios(method: string, url: string, body?: any) {
@@ -462,7 +462,7 @@ export default class WebhookData {
   private async _send(embeds: any[], attempt = 5) {
     try {
       console.debug('Discord webhook', JSON.stringify(embeds));
-      await request(
+      const response = await this.requestAxios(
         'POST',
         `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`,
         {
@@ -470,6 +470,7 @@ export default class WebhookData {
           avatar_url: process.env.COMPANY_LOGO_URL
         }
       );
+      logger.info('Discord webhook response', response);
     } catch (e) {
       if (e.name.startsWith('DiscordRESTError')) {
         if (e.code === 10015) {
