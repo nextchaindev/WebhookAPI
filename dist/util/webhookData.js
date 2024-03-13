@@ -4,6 +4,7 @@ exports.COMPACT_EMOJIS = exports.DEFAULT_COLORS = exports.batches = void 0;
 const tslib_1 = require("tslib");
 const node_1 = require("@sentry/node");
 const lodash_1 = tslib_1.__importDefault(require("lodash"));
+const axios_1 = tslib_1.__importDefault(require("axios"));
 const cache_1 = require("../cache");
 const influx_1 = require("../db/influx");
 const postgres_1 = require("../db/postgres");
@@ -12,7 +13,6 @@ const logger_1 = require("../logger");
 const _1 = require(".");
 const batcher_1 = tslib_1.__importDefault(require("./batcher"));
 const locale = tslib_1.__importStar(require("./locale"));
-const request_1 = require("./request");
 exports.batches = new Map();
 async function createTemporaryBatcher(id, data, options) {
     if (redis_1.available) {
@@ -263,13 +263,31 @@ class WebhookData {
             }
         });
     }
+    requestAxios(method, url, body) {
+        const BASE_DISCORD_URL = 'https://discord.com/api/v9';
+        const headers = {
+            'Content-Type': 'application/json'
+        };
+        try {
+            return (0, axios_1.default)({
+                method,
+                url: `${BASE_DISCORD_URL}${url}`,
+                data: body,
+                headers
+            });
+        }
+        catch (e) {
+            logger_1.logger.error('Discord request failed', e);
+        }
+    }
     async _send(embeds, attempt = 5) {
         try {
             console.debug('Discord webhook', JSON.stringify(embeds));
-            await (0, request_1.request)('POST', `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`, {
+            const response = await this.requestAxios('POST', `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`, {
                 embeds,
                 avatar_url: process.env.COMPANY_LOGO_URL
             });
+            logger_1.logger.info('Discord webhook response', response);
         }
         catch (e) {
             if (e.name.startsWith('DiscordRESTError')) {

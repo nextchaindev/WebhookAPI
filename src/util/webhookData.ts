@@ -1,7 +1,7 @@
 import { captureException } from '@sentry/node';
 import { FastifyRequest } from 'fastify';
 import lodash from 'lodash';
-
+import axios from 'axios';
 import { cardListMapCache } from '../cache';
 import { onWebhookSend } from '../db/influx';
 import { Webhook } from '../db/postgres';
@@ -434,10 +434,27 @@ export default class WebhookData {
     );
   }
 
+  private requestAxios(method: string, url: string, body?: any) {
+    const BASE_DISCORD_URL = 'https://discord.com/api/v9';
+    const headers = {
+      'Content-Type': 'application/json'
+    };
+    try {
+      return axios({
+        method,
+        url: `${BASE_DISCORD_URL}${url}`,
+        data: body,
+        headers
+      });
+    } catch (e) {
+      logger.error('Discord request failed', e);
+    }
+  }
+
   private async _send(embeds: any[], attempt = 5) {
     try {
       console.debug('Discord webhook', JSON.stringify(embeds));
-      await request(
+      const response = await this.requestAxios(
         'POST',
         `/webhooks/${this.webhook.webhookID}/${this.webhook.webhookToken}?thread_id=${this.webhook.threadID}`,
         {
@@ -445,6 +462,7 @@ export default class WebhookData {
           avatar_url: process.env.COMPANY_LOGO_URL
         }
       );
+      logger.info('Discord webhook response', response);
     } catch (e) {
       if (e.name.startsWith('DiscordRESTError')) {
         if (e.code === 10015) {

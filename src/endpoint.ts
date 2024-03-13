@@ -133,6 +133,9 @@ export const route: RouteOptions = {
         }
       });
 
+      logger.info(`Found ${webhooks.length} webhooks for board ${body.model.id}`);
+      logger.debug(webhooks);
+
       await Promise.all(
         webhooks.map(async (webhook) => {
           const data = new WebhookData(request, webhook, filter);
@@ -152,6 +155,10 @@ export const route: RouteOptions = {
               webhookToken: '<hidden>'
             }
           });
+
+          logger.debug(
+            `Webhook ${webhook.webhookID} ${allowed ? (postEvent ? 'posting' : 'allowed') : 'denied'}`
+          );
 
           if (postEvent) return events.get(filter).onEvent(data);
         })

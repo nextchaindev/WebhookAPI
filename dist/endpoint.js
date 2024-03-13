@@ -83,6 +83,8 @@ exports.route = {
                     active: true
                 }
             });
+            logger_1.logger.info(`Found ${webhooks.length} webhooks for board ${body.model.id}`);
+            logger_1.logger.debug(webhooks);
             await Promise.all(webhooks.map(async (webhook) => {
                 const data = new webhookData_1.default(request, webhook, filter);
                 const filters = new webhookFilters_1.default(BigInt(webhook.filters));
@@ -97,6 +99,7 @@ exports.route = {
                         webhookToken: '<hidden>'
                     }
                 });
+                logger_1.logger.debug(`Webhook ${webhook.webhookID} ${allowed ? (postEvent ? 'posting' : 'allowed') : 'denied'}`);
                 if (postEvent)
                     return events_1.events.get(filter).onEvent(data);
             }));
