@@ -450,17 +450,13 @@ export default class WebhookData {
     const headers = {
       'Content-Type': 'application/json'
     };
-    logger.debug('Discord request', method, BASE_DISCORD_URL + url, body);
-    try {
-      return await axios.request({
-        method,
-        url: BASE_DISCORD_URL + url,
-        headers,
-        data: JSON.stringify(body)
-      });
-    } catch (e) {
-      logger.error('Discord request failed', e);
-    }
+    logger.debug('Discord request', method, BASE_DISCORD_URL + url, JSON.stringify(body));
+    return await axios.request({
+      method,
+      url: BASE_DISCORD_URL + url,
+      headers,
+      data: JSON.stringify(body)
+    });
   }
 
   private async _send(embeds: any[], attempt = 5) {
