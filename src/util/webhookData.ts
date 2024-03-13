@@ -414,35 +414,35 @@ export default class WebhookData {
       });
       return;
     }
-    // onWebhookSend(this.webhook.webhookID);
-    // logger.info(
-    //   'Posting webhook %s (guild=%s, time=%d)',
-    //   this.webhook.webhookID,
-    //   this.webhook.guildID,
-    //   Date.now()
-    // );
-
-    // return this._send([EMBED_DEFAULTS.small]);
-
-    return createTemporaryBatcher(
+    onWebhookSend(this.webhook.webhookID);
+    logger.info(
+      'Posting webhook %s (guild=%s, time=%d)',
       this.webhook.webhookID,
-      lodash.defaultsDeep(embedStyles[this.webhook.style], EMBED_DEFAULTS[this.webhook.style]),
-      {
-        maxTime: 1000,
-        maxSize: 10,
-        onBatch: (embeds) => {
-          onWebhookSend(this.webhook.webhookID);
-          logger.info(
-            'Posting webhook %s (guild=%s, time=%d)',
-            this.webhook.webhookID,
-            this.webhook.guildID,
-            Date.now()
-          );
-
-          return this._send(embeds);
-        }
-      }
+      this.webhook.guildID,
+      Date.now()
     );
+
+    return this._send([EMBED_DEFAULTS.default]);
+
+    // return createTemporaryBatcher(
+    //   this.webhook.webhookID,
+    //   lodash.defaultsDeep(embedStyles[this.webhook.style], EMBED_DEFAULTS[this.webhook.style]),
+    //   {
+    //     maxTime: 1000,
+    //     maxSize: 10,
+    //     onBatch: (embeds) => {
+    //       onWebhookSend(this.webhook.webhookID);
+    //       logger.info(
+    //         'Posting webhook %s (guild=%s, time=%d)',
+    //         this.webhook.webhookID,
+    //         this.webhook.guildID,
+    //         Date.now()
+    //       );
+
+    //       return this._send(embeds);
+    //     }
+    //   }
+    // );
   }
 
   private async requestAxios(method: string, url: string, body?: any) {
