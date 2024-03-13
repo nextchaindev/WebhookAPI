@@ -6,9 +6,11 @@ import { hostname } from 'os';
 import { logger } from '../logger';
 import { Webhook } from './postgres';
 
-export const client = process.env.INFLUX_URL ? new InfluxDB({ url: process.env.INFLUX_URL, token: process.env.INFLUX_TOKEN }) : null;
+export const client = process.env.INFLUX_URL
+  ? new InfluxDB({ url: process.env.INFLUX_URL, token: process.env.INFLUX_TOKEN })
+  : null;
 
-export const cron = new CronJob('*/5 * * * *', collect, null, false, 'America/New_York');
+export const cron = new CronJob('*/1 * * * *', collect, null, false, 'America/New_York');
 
 export let activeWebhooks: string[] = [];
 export let webhooksSent = 0;
