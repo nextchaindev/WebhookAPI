@@ -324,6 +324,7 @@ export default class WebhookData {
    */
   async send(embedStyles: Record<string, any>) {
     // Update card-list pairing cache
+    logger.debug('Updating card-list pairing cache');
     if (this.card && (this.list || this.listAfter))
       cardListMapCache.set(this.card.id, [Date.now(), this.list ? this.list.id : this.listAfter.id]);
 
@@ -343,7 +344,7 @@ export default class WebhookData {
           : {}),
         timestamp: this.action.date,
         footer: {
-          icon_url: 'https://tacobot.app/logo_happy.png',
+          icon_url: process.env.COMPANY_LOGO_URL,
           text: 'nextchain.kr'
         }
       },
@@ -362,7 +363,7 @@ export default class WebhookData {
         title: cutoffText(this.model.name, 256),
         timestamp: this.action.date,
         footer: {
-          icon_url: 'https://tacobot.app/logo_happy.png',
+          icon_url: process.env.COMPANY_LOGO_URL,
           text: 'nextchain.kr'
         }
       },
@@ -375,7 +376,7 @@ export default class WebhookData {
         },
         timestamp: this.action.date,
         footer: {
-          icon_url: 'https://tacobot.app/logo_happy.png',
+          icon_url: process.env.COMPANY_LOGO_URL,
           text: 'nextchain.kr'
         }
       }

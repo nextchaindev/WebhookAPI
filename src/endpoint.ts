@@ -160,7 +160,13 @@ export const route: RouteOptions = {
             `Webhook ${webhook.webhookID} ${allowed ? (postEvent ? 'posting' : 'allowed') : 'denied'}`
           );
 
-          if (postEvent) return events.get(filter).onEvent(data);
+          logger.debug(data);
+
+          if (postEvent) {
+            const eventDebug = await events.get(filter).onEvent(data);
+            logger.debug(eventDebug);
+            return eventDebug;
+          }
         })
       );
 
